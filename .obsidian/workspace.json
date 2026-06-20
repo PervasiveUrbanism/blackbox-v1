@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "370c8321219652ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "a091c37d0065999b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bcacab709fd9d68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "publication/08-conclusion.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "08-conclusion"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9fe1e4ea10a5587c",
+    "type": "split",
+    "children": [
+      {
+        "id": "059f3a876623be23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdb83f72e1065346",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "442d339b755b3f07",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "73ca25073e60ab3b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "538c8dbc0aa5dfee",
+    "type": "split",
+    "children": [
+      {
+        "id": "b43b936b8bc3b2c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "935a2f4c1264c8cc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "publication/08-conclusion.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 08-conclusion"
+            }
+          },
+          {
+            "id": "ca360db96b6b785f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "publication/08-conclusion.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 08-conclusion"
+            }
+          },
+          {
+            "id": "ea18c02ac16eb42d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b85716673d87fff1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3a71542481163942",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "publication/08-conclusion.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 08-conclusion"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2bcacab709fd9d68",
+  "lastOpenFiles": [
+    "publication/07-reflection.md",
+    "publication/06-key-findings.md",
+    "publication/05-observations.md",
+    "publication/04-building-blackbox.md",
+    "publication/03-the-blackbox-experiment.md",
+    "publication/02-ai-in-architectural-practice.md",
+    "publication/01-introduction.md",
+    "README.md",
+    "publication/08-conclusion.md",
+    "publication/New Text Document.txt",
+    "publication/02-ai-in-architectural-practice - Copy.md",
+    "publication/01-introduction - Copy.md"
+  ]
+}
