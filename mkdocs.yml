@@ -10,7 +10,6 @@ site_dir: site
 use_directory_urls: false
 
 nav:
-  - Home: index.md
   - Publication:
       - Overview: publication/00-overview.md
       - Why I Started BlackBox: publication/01-introduction.md
@@ -21,14 +20,6 @@ nav:
       - Lessons from BlackBox: publication/06-key-findings.md
       - Reflection: publication/07-reflection.md
       - Conclusion: publication/08-conclusion.md
-  - Project Sources:
-      - Current State: sources/current-state.md
-      - Roadmap: sources/roadmap.md
-      - Next Steps: sources/next-steps.md
-      - Milestone History: sources/milestone-history.md
-      - Completed Milestones: sources/completed.md
-      - User Guide: sources/blackbox-user-guide.md
-      - Contributing: sources/CONTRIBUTING.md
 
 theme:
   name: shadcn
