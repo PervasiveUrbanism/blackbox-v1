@@ -1,39 +1,25 @@
 # AI in Architectural Practice
 
-When BlackBox was developed in early 2026, artificial intelligence was already becoming visible within architectural practice. The most immediate impact was in the field of image generation.
+By the time BlackBox was developed in early 2026, artificial intelligence had already become part of the everyday conversation within architecture. The most visible impact was perhaps in the field of image generation. Architects began using AI tools to create atmospheric visualisations, explore material qualities, test different visual directions, and communicate early design ideas.
 
-AI-generated imagery had rapidly moved from an experimental curiosity to a practical design tool. Architects used these systems to produce conceptual images, explore atmospheres, communicate early ideas, and develop visual references.
+At the same time, Large Language Models started to appear in many smaller tasks within daily practice. Writing project descriptions, reviewing texts, structuring presentations, researching unfamiliar subjects, and preparing early project strategies became areas where AI could provide immediate assistance.
 
-Large Language Models were also beginning to enter everyday practice. They were used for writing project descriptions, preparing presentations, reviewing texts, researching unfamiliar subjects, organising information, and supporting early design thinking.
+What characterised this period was that adoption was often informal. There was rarely a single office-wide strategy or a clearly defined methodology. Instead, individual architects experimented with different tools, discovered their own workflows, and gradually developed personal ways of interacting with AI.
 
-These developments were significant not because they replaced existing architectural skills, but because they introduced new methods of working with information and representation.
+Some designers became highly skilled at writing prompts for image generation. Through repeated testing, they developed an understanding of how particular models interpreted language, which descriptions produced useful results, and how small changes in wording influenced the final image.
 
-However, much of this adoption happened at an individual level.
+Over time, these prompts became records of experimentation. They captured a designer's understanding of a particular tool and the techniques that produced consistent results.
 
-Architects developed their own collections of prompts, discovered effective ways of communicating with image models, and established personal workflows for interacting with language models. Some individuals became highly skilled users of these tools, while others had little exposure to them.
+This raised an interesting question: where did this knowledge go?
 
-A particular observation was that this knowledge often remained personal.
+A successful prompt might remain stored in a personal document, an individual account, or simply in the memory of the person who developed it. If that person moved to another project or left the office, this knowledge could easily disappear.
 
-A designer might spend months refining prompts that consistently produced successful architectural images. The process involved experimentation, failure, adjustment of language, and a gradual understanding of how specific AI models interpreted instructions.
+The same observation applied to many other aspects of working with AI. As architects tested new tools, they developed methods, workflows, and practical knowledge that often remained individual rather than becoming part of a wider office culture.
 
-The final prompt was not simply a sentence. It represented accumulated experience.
+This was one of the observations that influenced the development of BlackBox.
 
-Yet this knowledge was often stored in private notebooks, personal accounts, or individual memory. When a person left the office or changed projects, that knowledge could easily disappear.
+The project was not only concerned with making previous project information more accessible. It was also interested in understanding how new forms of digital knowledge could be captured as they emerged.
 
-This introduced a new category of organisational knowledge.
+A successful AI prompt developed by one designer might become useful to a colleague in the same way that a successful technical detail, a graphic method, or a competition narrative could inform future work.
 
-Architectural practices had always documented drawings, reports, specifications, and visual references. AI introduced another type of expertise: knowledge about how to interact with AI systems themselves.
-
-The question therefore became how this emerging knowledge could be shared, recorded, and made available to others within the practice.
-
-This observation was one of the foundations of BlackBox.
-
-The project was not only concerned with historical project information. It was also interested in capturing contemporary forms of digital knowledge as they emerged.
-
-A successful AI prompt developed by a colleague could become part of the collective resources of the office in the same way that a successful technical detail, material specification, or competition narrative could inform future work.
-
-This represented a broader shift in the understanding of office knowledge.
-
-The value of an architectural practice does not only exist in the buildings it has completed. It also exists in the methods, language, workflows, and accumulated experience developed while creating those buildings.
-
-BlackBox emerged from the idea that AI could help make these forms of knowledge more accessible and usable within everyday practice.
+BlackBox therefore emerged not only from the question of how an office remembers its past, but also how it records the new knowledge it continuously creates while adopting new technologies.

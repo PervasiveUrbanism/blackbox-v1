@@ -10,9 +10,10 @@ The BlackBox environment was organised around a central conversational interface
 
 ---
 
-[FIGURE 03 — Technical BlackBox Ecosystem Diagram]
+![FIGURE 03 — Technical BlackBox Ecosystem Diagram](assets/diagrams/Stack.png)
 
-OpenWebUI as the central interface connecting AI models with different forms of organisational knowledge including documentation, images, and collaborative environments.
+
+*OpenWebUI as the central interface connecting AI models with different forms of organisational knowledge including documentation, images, and collaborative environments.*
 
 ---
 
@@ -29,9 +30,9 @@ The intention was that each application maintained its own specialised function 
 
 ---
 
-[FIGURE 04 — Heimdall Dashboard]
+![FIGURE 04 — Heimdall Dashboard](assets/screenshots/BB_Homescreen.png)
 
-The central landing page of the BlackBox environment providing access to all applications.
+*The central landing page of the BlackBox environment providing access to all applications.*
 
 ---
 
@@ -58,9 +59,11 @@ This distinction was deliberate. Keywords represented a stable office taxonomy a
 
 ---
 
-[FIGURE 05 — PhotoPrism AI Labelling]
+![FIGURE 05 — PhotoPrism AI Labelling](assets/screenshots/PP_AI_Details.png)
 
-Example of AI-generated descriptions and architectural labels automatically assigned after image upload.
+![FIGURE 05a — PhotoPrism AI Description](assets/screenshots/PP_AI_Labels.png)
+
+*Example of AI-generated descriptions and architectural labels automatically assigned after image upload.*
 
 ---
 
@@ -77,10 +80,9 @@ For example, an architect could write:
 OpenWebUI would interpret the request, search the AI-generated descriptions and labels stored in the PhotoPrism database, and return matching references directly within the conversation.
 
 ---
+![FIGURE 06 — PhotoPrism Labels](assets/screenshots/BB_PP_Search.png)
 
-[FIGURE 06 — OpenWebUI Image Retrieval]
-
-Natural language search of the PhotoPrism archive directly within the AI conversation.
+*Natural language search of the PhotoPrism archive directly within the AI conversation.*
 
 ---
 
@@ -100,9 +102,9 @@ The long-term ambition was that this knowledge could become available through AI
 
 ---
 
-[FIGURE 07 — BookStack Documentation]
+![FIGURE 07 — BookStack Documentation](assets/screenshots/BS_Screen.png)
 
-Example of structured office knowledge including workflows, standards, and technical documentation.
+*Example of structured office knowledge including workflows, standards, and technical documentation.*
 
 ---
 
@@ -110,9 +112,9 @@ The project also explored tldraw as a collaborative digital environment. The int
 
 ---
 
-[FIGURE 08 — Drawing Canvas]
+![FIGURE 08 — Drawing Canvas](assets/screenshots/BB_Canvas.png)
 
-Experimental collaborative drawing environment for sketches, diagrams, and future AI-assisted ideation.
+*Experimental collaborative drawing environment for sketches, diagrams, and future AI-assisted ideation.*
 
 ---
 

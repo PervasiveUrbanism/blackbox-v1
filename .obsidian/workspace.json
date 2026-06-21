@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a091c37d0065999b",
+        "id": "b58e68e5995e9354",
         "type": "tabs",
         "children": [
           {
-            "id": "2bcacab709fd9d68",
+            "id": "ab059deaad627c4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publication/08-conclusion.md",
-                "mode": "source",
+                "file": "publication/03-the-blackbox-experiment.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "08-conclusion"
+              "title": "03-the-blackbox-experiment"
             }
           }
         ]
@@ -183,17 +183,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "2bcacab709fd9d68",
+  "active": "ab059deaad627c4e",
   "lastOpenFiles": [
-    "publication/07-reflection.md",
-    "publication/06-key-findings.md",
-    "publication/05-observations.md",
-    "publication/04-building-blackbox.md",
+    "assets/screenshots/PP_AI_Details.png",
+    "assets/screenshots/PP Images.png",
     "publication/03-the-blackbox-experiment.md",
     "publication/02-ai-in-architectural-practice.md",
     "publication/01-introduction.md",
+    "publication/00-overview.md",
+    "publication/04-building-blackbox.md",
+    "assets/diagrams/OrganisationalKnowledge.png.tmp$$",
+    "assets/diagrams/Stack.png.tmp$$",
+    "assets/diagrams/Timeline.png",
+    "assets/diagrams/Timeline.png.tmp$$",
+    "assets/diagrams/Development.png",
+    "assets/diagrams/Development.png.tmp$$",
+    "assets/screenshots/BB_PP_Search.png",
+    "assets/screenshots/BB PP Search2.png",
+    "assets/diagrams/Stack.png",
     "README.md",
+    "assets/diagrams/OrganisationalKnowledge.png",
+    "assets/images/MariaLaach.jpg",
+    "assets/images/Unconfirmed 526738.crdownload",
+    "assets/images",
+    "assets/New folder",
     "publication/08-conclusion.md",
+    "publication/07-reflection.md",
+    "publication/06-key-findings.md",
+    "publication/05-observations.md",
     "publication/New Text Document.txt",
     "publication/02-ai-in-architectural-practice - Copy.md",
     "publication/01-introduction - Copy.md"

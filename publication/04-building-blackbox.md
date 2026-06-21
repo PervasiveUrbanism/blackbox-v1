@@ -8,9 +8,9 @@ In this respect, the process had similarities with architectural design. Early s
 
 ---
 
-[FIGURE 09 — Development Timeline]
+![FIGURE 09 — Development Timeline](assets/diagrams/Timeline.png)
 
-The evolution of BlackBox from the first experiments with local Large Language Models to a functioning AI-assisted workspace.
+*The evolution of BlackBox from the first experiments with local Large Language Models to a functioning AI-assisted workspace.*
 
 ---
 
@@ -46,9 +46,9 @@ As the complexity of BlackBox increased, this process became more structured. De
 
 ---
 
-[FIGURE 10 — Agentic Development Workflow]
+![FIGURE 10 — Agentic Development Workflow](assets/diagrams/Development.png)
 
-Architectural problem → discussion with AI → technical roadmap → implementation → testing → revision.
+*Architectural problem → discussion with AI → technical roadmap → implementation → testing → revision.*
 
 ---
 
