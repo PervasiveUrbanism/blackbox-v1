@@ -1,37 +1,39 @@
 # Why I Started BlackBox
 
-BlackBox did not begin with a clearly defined product, technical specification, or development roadmap. It began with a broader curiosity about artificial intelligence and a desire to understand how this emerging technology could influence architectural practice.
+BlackBox did not begin with a detailed proposal, a technical specification, or a clearly defined roadmap.
 
-The circumstances were favourable. A powerful workstation was available within the office, creating an opportunity to experiment with local AI systems without additional financial investment or disruption to project work. Development could take place incrementally, often through short periods of experimentation alongside normal architectural responsibilities.
+It started with curiosity.
 
-At the same time, I had increasingly integrated Large Language Models into my own work. They proved useful for writing, organising information, reviewing texts, exploring ideas, and accelerating everyday tasks. This raised a broader question: if AI could support individual architects, what could it mean for an architectural practice as a collective organisation?
+During the early development of accessible Large Language Models, I became increasingly interested in the possibilities of AI as a practical tool. Like many architects, I began using systems such as ChatGPT for everyday tasks: writing, structuring ideas, reviewing texts, and exploring different approaches to a problem.
 
-By early 2026, AI image generation had become the most visible application of artificial intelligence in architecture. It had quickly moved from an experimental technology into a practical tool for producing conceptual imagery, visual references, and design atmospheres.
+At the same time, I discovered the rapidly growing ecosystem of open-source AI.
 
-Other forms of AI adoption were also appearing. Architects used language models to edit texts, prepare presentations, conduct research, or support early-stage ideation. However, these workflows were largely individual and informal. They often existed through private accounts and personal experimentation, without becoming part of the shared knowledge of the office.
+One of the most surprising aspects was the realisation that capable language models could be downloaded, installed, and executed locally on a computer within an architectural office. Only a short time earlier, this type of technology appeared to belong exclusively to large technology companies and cloud services. The possibility of experimenting with these models directly, without a commercial commitment or dedicated development infrastructure, created a new space for exploration.
 
-This observation became increasingly interesting.
+The project started with a simple practical opportunity. A powerful workstation was available in the office, allowing me to install and test local AI systems without affecting existing workflows.
 
-Architectural practices continuously generate and accumulate knowledge. Every project leaves behind documents, drawings, images, decisions, and discussions. A successful competition narrative, a carefully developed fee proposal, a technical solution, or a well-tested AI prompt all represent knowledge that may have value far beyond the project in which it was originally created.
+The first steps were straightforward: installing Ollama, downloading different Large Language Models, and exploring their capabilities through OpenWebUI. At this stage, there was no clear vision of what BlackBox would become. The process was largely experimental.
 
-Yet much of this experience remains difficult to access. It is stored in folders, archived in old projects, or retained by individuals who were involved in the original work.
+The development of the idea followed a pattern that was familiar from architectural design. Initial experiments generated new questions, which led to further testing, new tools, and gradually a more precise understanding of the potential of the project.
 
-The central question behind BlackBox emerged from this observation:
+The original ambition was not necessarily to create a complete AI platform. It was an investigation into what became possible when these technologies could be directly controlled and modified by an individual architect.
 
-> How do we preserve what we learn?
+As the experiments progressed, the ecosystem expanded. Additional applications were tested and integrated: PhotoPrism as a visual archive, BookStack as a documentation system, tldraw as a collaborative drawing environment, and Heimdall as a central interface connecting the different components.
 
-The answer was not simply to create a better archive. Architectural offices already possess vast collections of digital information. The challenge is making this information available in a meaningful way when it can support a new project, a design decision, or a commercial discussion.
+The development process itself also became an important discovery.
 
-The hypothesis behind BlackBox was that Large Language Models could become an interface between architects and the accumulated knowledge of the practice.
+Throughout the project, conversations with ChatGPT played a significant role in shaping ideas, understanding technical concepts, comparing possible approaches, and translating broad ambitions into concrete development tasks.
 
-A designer developing a competition submission could access the language of previous proposals. A project architect preparing a specification could retrieve previous material selections and technical solutions. A colleague developing AI imagery could build upon successful prompts and methods developed by others.
+Later, Codex became part of the workflow and enabled a different way of developing software. Ideas could be discussed, structured into milestones, and implemented through AI-assisted coding.
 
-In this way, organisational memory could become an active participant in the ongoing work of the office rather than a static archive.
+The most interesting aspect was not simply that AI could generate code. The more relevant question was what kinds of digital problems could now be addressed by professionals who understood the domain but did not have a background in software engineering.
 
-Another unexpected aspect of the project was the process of its own development.
+Many architectural workflows are too specific to justify commercial software development. The ability to create small, bespoke digital tools opened a new area of experimentation.
 
-BlackBox became my first substantial experience with agentic software development. The project was shaped through a continuous dialogue with AI systems. ChatGPT was used to discuss concepts, explore technical possibilities, identify suitable software, and translate ideas into structured development steps. Codex was later introduced as an implementation tool capable of turning these milestones into scripts, configurations, and software integrations.
+Looking back, BlackBox was therefore not the execution of a predetermined plan. The central questions of the project emerged gradually through the process of building, testing, and reflecting on the technology.
 
-This introduced a different relationship between professional expertise and software creation. An architect did not need to become a full-time software engineer to experiment with bespoke digital tools. The ability to describe a problem, evaluate a solution, and guide an AI development process became a new form of technical practice.
+---
 
-Looking back, this became one of the most unexpected outcomes of BlackBox. The project was not only an exploration of how AI might support architecture; it also demonstrated how AI could enable architects to create their own digital environments.
+[FIGURE 02 — Physical BlackBox Workstation]
+
+The Mac workstation used to host the local AI environment and the first BlackBox prototype.
