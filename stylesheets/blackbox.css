@@ -1,7 +1,36 @@
 :root {
-  --blackbox-ink: oklch(18% 0.015 210);
-  --blackbox-accent: oklch(58% 0.12 190);
-  --blackbox-rule: color-mix(in oklch, var(--blackbox-accent) 28%, transparent);
+  --blackbox-ink: oklch(14.5% 0 0);
+  --blackbox-accent: oklch(20% 0 0);
+}
+
+:root,
+.dark {
+  --background: oklch(100% 0 0);
+  --foreground: oklch(14.5% 0 0);
+  --card: oklch(100% 0 0);
+  --card-foreground: oklch(14.5% 0 0);
+  --popover: oklch(100% 0 0);
+  --popover-foreground: oklch(14.5% 0 0);
+  --primary: oklch(20.5% 0 0);
+  --primary-foreground: oklch(100% 0 0);
+  --secondary: oklch(100% 0 0);
+  --secondary-foreground: oklch(20.5% 0 0);
+  --muted: oklch(100% 0 0);
+  --muted-foreground: oklch(45% 0 0);
+  --accent: oklch(100% 0 0);
+  --accent-foreground: oklch(20.5% 0 0);
+  --border: oklch(90% 0 0);
+  --input: oklch(90% 0 0);
+  --ring: oklch(55% 0 0);
+  --sidebar: oklch(100% 0 0);
+  --sidebar-foreground: oklch(14.5% 0 0);
+  --sidebar-accent: oklch(100% 0 0);
+  --sidebar-accent-foreground: oklch(20.5% 0 0);
+  --sidebar-border: oklch(90% 0 0);
+  --surface: oklch(100% 0 0);
+  --surface-foreground: oklch(14.5% 0 0);
+  --code: oklch(100% 0 0);
+  --code-foreground: oklch(14.5% 0 0);
 }
 
 html {
@@ -9,21 +38,25 @@ html {
 }
 
 body {
-  background-image:
-    linear-gradient(to right, var(--blackbox-rule) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--blackbox-rule) 1px, transparent 1px);
-  background-size: 4rem 4rem;
-  background-attachment: fixed;
+  background: #fff;
 }
 
 #inner-body {
-  background: color-mix(in oklch, var(--background) 97%, transparent);
-  backdrop-filter: blur(2px);
+  background: #fff;
+  --header-height: 0px;
 }
 
 header {
-  border-bottom: 1px solid color-mix(in oklch, var(--border) 72%, transparent);
-  backdrop-filter: blur(18px);
+  display: none;
+}
+
+[data-slot="sidebar"] {
+  top: 1rem;
+  height: calc(100svh - 2rem);
+}
+
+[data-slot="sidebar"] > .h-9 {
+  display: none;
 }
 
 article {
@@ -32,8 +65,8 @@ article {
 }
 
 #page-header {
-  border-top: 3px solid var(--blackbox-accent);
-  padding-top: 1.2rem;
+  border-top: 0;
+  padding-top: 0;
 }
 
 #page-header h1 {
@@ -67,8 +100,8 @@ article {
   object-fit: contain;
   border: 1px solid var(--border);
   border-radius: 0.75rem;
-  background: var(--muted);
-  box-shadow: 0 1.25rem 3.5rem color-mix(in oklch, var(--blackbox-ink) 12%, transparent);
+  background: #fff;
+  box-shadow: none;
 }
 
 .typography blockquote {
@@ -83,6 +116,33 @@ article {
 @media (max-width: 1023px) {
   article {
     margin-inline: auto;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1023px) {
+  [data-slot="sidebar-wrapper"] {
+    display: grid !important;
+    grid-template-columns: 18rem minmax(0, 1fr);
+  }
+
+  [data-slot="sidebar"] {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 719px) {
+  #inner-body {
+    --header-height: 3.5rem;
+  }
+
+  header {
+    display: block;
+    border-bottom: 0;
+    background: #fff;
+  }
+
+  header .ml-auto {
+    display: none;
   }
 }
 
