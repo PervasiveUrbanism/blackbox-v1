@@ -1,51 +1,121 @@
 # The BlackBox Experiment
 
-BlackBox V1 was developed between February and May 2026 as an experimental AI workspace within an architectural practice. The objective was not to create a commercial product or a finished software platform. It was a practical investigation into whether contemporary AI tools could provide a meaningful interface between architects and the accumulated knowledge of a practice.
+The BlackBox project explored whether an architectural office could create its own AI-assisted workspace by combining existing open-source applications, local AI models, and custom software integrations.
 
-The project was based on several initial principles.
+The objective was not to develop a single application that performed every task. Instead, the project treated the office as an ecosystem of different types of knowledge.
 
-The first was privacy and control over information. Architectural offices regularly work under confidentiality agreements, particularly in competitions and private commissions. Design proposals, technical solutions, client information, and strategic discussions often cannot be freely shared with external services.
+Project documentation, technical standards, visual references, sketches, and AI conversations all have different formats and therefore required different tools.
 
-For this reason, BlackBox initially explored a locally hosted AI environment. Running models on office hardware offered the possibility of experimenting without recurring usage costs and without transferring confidential information outside the practice.
+The BlackBox environment was organised around a central conversational interface. OpenWebUI provided access to different Large Language Models and acted as the point through which users could interact with the wider ecosystem.
 
-The second principle was flexibility. The intention was never to depend on a particular AI model. A successful office AI system should be able to evolve as AI technology evolves. Local models, cloud-based services, and commercial systems all have different strengths and limitations. The important element is not a specific model, but the ability to connect an AI system to the knowledge and workflows of a particular practice.
+---
 
-The technical structure of BlackBox was therefore conceived as a modular ecosystem of specialised applications connected through a conversational AI interface.
+[FIGURE 03 — Technical BlackBox Ecosystem Diagram]
 
-At the centre of the system was OpenWebUI, which provided a simple way for architects to interact with AI models through natural language.
+OpenWebUI as the central interface connecting AI models with different forms of organisational knowledge including documentation, images, and collaborative environments.
 
-The wider ecosystem included:
+---
 
-- Ollama as the framework for running local Large Language Models.
-- BookStack as a repository for office documentation, standards, workflows, and guides.
-- PhotoPrism as an experimental visual archive containing reference images and AI-generated classifications.
-- tldraw as a collaborative digital whiteboard with potential for AI-assisted ideation.
-- Heimdall as a central dashboard providing access to the entire environment.
+The main components of the system were:
 
-Together, these applications represented different forms of organisational knowledge: text, images, documentation, and collaborative thinking.
+- **Ollama** — local execution and management of Large Language Models.
+- **OpenWebUI** — conversational interface through which users interacted with AI models and connected systems.
+- **BookStack** — structured office documentation including workflows, standards, technical guides, and user instructions.
+- **PhotoPrism** — visual archive containing reference imagery and AI-assisted image descriptions.
+- **tldraw** — collaborative digital whiteboard explored as a space for sketches and early ideas.
+- **Heimdall** — dashboard providing a single entry point to all applications.
 
-The role of the AI was not simply to generate new content. The more interesting possibility was to use AI as a layer connecting these different sources of information.
+The intention was that each application maintained its own specialised function while AI provided a common method of accessing information.
 
-A traditional archive requires users to know where information is stored and how it is organised. An architect searching for a previous competition text, a technical solution, or a visual reference must typically navigate folders, file structures, and databases.
+---
 
-Large Language Models suggested another approach. Information could be accessed through conversation.
+[FIGURE 04 — Heimdall Dashboard]
 
-An architect could ask:
+The central landing page of the BlackBox environment providing access to all applications.
 
-"How did we describe sustainability in previous competition submissions?"
+---
 
-or:
+## Visual Organisational Memory
 
-"Show examples of timber materials previously used by the office."
+The use of PhotoPrism was one of the more experimental aspects of BlackBox.
 
-The AI would not replace professional judgement. It would provide access to previous experience and present relevant information within the context of a current task.
+Architectural practices collect large numbers of visual references. These may include precedent images, materials, interiors, landscapes, construction details, or AI-generated imagery.
 
-The ambition of BlackBox was therefore not to create a more sophisticated archive. The ambition was to transform an archive into a usable form of organisational memory.
+Traditionally, these collections rely on folders, filenames, or manually assigned keywords. While effective to a degree, this approach requires users to know how the archive has been organised.
 
-An important aspect of this idea was that the archive contained more than information. It contained traces of the culture of the office: its language, preferred references, graphic methods, technical approaches, and accumulated experience.
+BlackBox investigated whether AI could add an additional descriptive layer to visual knowledge.
 
-This distinction was essential. The purpose was not to train an AI to imitate the style of an office. It was to provide a general AI system with the context required to understand the environment in which it was being used.
+When a new image was uploaded to PhotoPrism, a custom workflow automatically triggered an AI analysis.
 
-In this sense, BlackBox explored a relationship between a general AI model and a specific organisational memory.
+A locally hosted Large Language Model received the image together with a specifically developed architectural prompt. The model generated two forms of information:
 
-The project remained intentionally experimental. The objective was to test these ideas through a functioning prototype, understand the technical and organisational challenges involved, and evaluate where AI could provide meaningful support within architectural practice.
+- a written architectural description;
+- a set of architectural labels describing the content and character of the image.
+
+These AI-generated fields existed alongside manually controlled keywords.
+
+This distinction was deliberate. Keywords represented a stable office taxonomy and required human control. The AI-generated descriptions and labels provided a more flexible interpretation that could adapt to the content of each image.
+
+---
+
+[FIGURE 05 — PhotoPrism AI Labelling]
+
+Example of AI-generated descriptions and architectural labels automatically assigned after image upload.
+
+---
+
+## Conversational Access to Images
+
+A custom integration connected OpenWebUI with the PhotoPrism archive.
+
+This allowed a user to retrieve images through natural language rather than browsing folders or searching predefined categories.
+
+For example, an architect could write:
+
+> Show me examples of dark timber interiors with a calm and atmospheric character.
+
+OpenWebUI would interpret the request, search the AI-generated descriptions and labels stored in the PhotoPrism database, and return matching references directly within the conversation.
+
+---
+
+[FIGURE 06 — OpenWebUI Image Retrieval]
+
+Natural language search of the PhotoPrism archive directly within the AI conversation.
+
+---
+
+This workflow represented an initial experiment in allowing visual archives to become part of a conversation.
+
+The retrieval process relied on textual descriptions and labels generated by the AI. A future development stage was planned around image embeddings, allowing searches based on deeper semantic and visual relationships.
+
+---
+
+## Documentation and Collaborative Knowledge
+
+Not all office knowledge is visual. A significant amount exists in documents, standards, guides, and internal instructions.
+
+BookStack was selected as the documentation platform because it provided a structured and accessible way of organising this information.
+
+The long-term ambition was that this knowledge could become available through AI-assisted retrieval in the same way as the visual archive.
+
+---
+
+[FIGURE 07 — BookStack Documentation]
+
+Example of structured office knowledge including workflows, standards, and technical documentation.
+
+---
+
+The project also explored tldraw as a collaborative digital environment. The intention was to investigate whether future AI systems could participate in more visual and diagrammatic forms of architectural thinking.
+
+---
+
+[FIGURE 08 — Drawing Canvas]
+
+Experimental collaborative drawing environment for sketches, diagrams, and future AI-assisted ideation.
+
+---
+
+By combining these different components, BlackBox became a prototype of an AI-assisted organisational memory system.
+
+The project did not attempt to create an AI that designed architecture. It explored whether existing knowledge within an office could be made more accessible through conversational interfaces and AI-assisted indexing.
