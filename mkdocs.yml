@@ -10,6 +10,7 @@ site_dir: site
 use_directory_urls: false
 
 nav:
+  - Home: index.md
   - Overview: publication/00-overview.md
   - Why I Started BlackBox: publication/01-introduction.md
   - AI in Architectural Practice: publication/02-ai-in-architectural-practice.md

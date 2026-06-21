@@ -22,9 +22,9 @@ STAGING.mkdir()
 for directory in ("publication", "stylesheets"):
     copy_tree(directory)
 
-# Use the publication overview as the landing page. No repository README or
-# project-source document is included in the published artifact.
-shutil.copy2(ROOT / "publication" / "00-overview.md", STAGING / "index.md")
+# Use the repository README as the landing page. No project-source document is
+# included in the published artifact.
+shutil.copy2(ROOT / "README.md", STAGING / "index.md")
 
 # Copy only images referenced by publication Markdown. Mirror them beside the
 # publication pages so their existing paths work without source-file edits.
