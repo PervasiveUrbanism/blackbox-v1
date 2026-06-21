@@ -29,7 +29,7 @@ theme:
   show_stargazers: false
   topbar_sections: true
   show_datetime: false
-  accent: "oklch(58% 0.12 190)"
+  accent: "oklch(20% 0 0)"
   pygments_style:
     light: shadcn-light
     dark: github-dark
