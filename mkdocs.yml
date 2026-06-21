@@ -22,13 +22,12 @@ nav:
 
 theme:
   name: shadcn
-  custom_dir: overrides
   icon: heroicons:cube-transparent
   show_title: true
   show_stargazers: false
   topbar_sections: false
   show_datetime: false
-  accent: "oklch(20% 0 0)"
+  accent: "oklch(62% 0.14 190)"
   pygments_style:
     light: shadcn-light
     dark: github-dark
@@ -47,9 +46,6 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.superfences
-
-extra_css:
-  - stylesheets/blackbox.css
 
 copyright: BlackBox V1 — Pervasive Urbanism
 
