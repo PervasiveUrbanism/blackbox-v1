@@ -1,0 +1,68 @@
+site_name: BlackBox V1
+site_url: https://pervasiveurbanism.github.io/blackbox-v1/
+site_description: AI, Organisational Memory and Architectural Practice
+site_author: Pervasive Urbanism
+repo_url: https://github.com/PervasiveUrbanism/blackbox-v1
+repo_name: PervasiveUrbanism/blackbox-v1
+
+docs_dir: .mkdocs
+site_dir: site
+use_directory_urls: false
+
+nav:
+  - Home: index.md
+  - Publication:
+      - Overview: publication/00-overview.md
+      - Why I Started BlackBox: publication/01-introduction.md
+      - AI in Architectural Practice: publication/02-ai-in-architectural-practice.md
+      - The BlackBox Experiment: publication/03-the-blackbox-experiment.md
+      - Building BlackBox: publication/04-building-blackbox.md
+      - Observations: publication/05-observations.md
+      - Lessons from BlackBox: publication/06-key-findings.md
+      - Reflection: publication/07-reflection.md
+      - Conclusion: publication/08-conclusion.md
+  - Project Sources:
+      - Current State: sources/current-state.md
+      - Roadmap: sources/roadmap.md
+      - Next Steps: sources/next-steps.md
+      - Milestone History: sources/milestone-history.md
+      - Completed Milestones: sources/completed.md
+      - User Guide: sources/blackbox-user-guide.md
+      - Contributing: sources/CONTRIBUTING.md
+
+theme:
+  name: shadcn
+  custom_dir: overrides
+  icon: heroicons:cube-transparent
+  show_title: true
+  show_stargazers: false
+  topbar_sections: true
+  show_datetime: false
+  accent: "oklch(58% 0.12 190)"
+  pygments_style:
+    light: shadcn-light
+    dark: github-dark
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite
+  - fenced_code
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/blackbox.css
+
+copyright: BlackBox V1 — Pervasive Urbanism
+
+validation:
+  links:
+    not_found: info
