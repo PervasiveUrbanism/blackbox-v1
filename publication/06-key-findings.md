@@ -1,55 +1,65 @@
-# Key Findings
+# Lessons from BlackBox
 
-BlackBox began as an experiment in building an AI-supported environment for architectural practice. The process did not produce a definitive model for how AI should be implemented in offices. Instead, it revealed a series of observations that may inform future approaches.
+The development of BlackBox was a practical experiment carried out at a particular moment in the development of AI technologies. The observations that emerged from it should therefore not be understood as universal conclusions about the future of architecture.
 
-## AI is likely to be most useful as a support system
+They are reflections based on the experience of developing, testing, and evaluating an AI-assisted workspace within an architectural environment.
 
-Much of the public discussion around AI in architecture focuses on autonomous design systems, AI-generated buildings, or automated production of BIM models.
+## Organisational Knowledge Has Untapped Potential
 
-BlackBox suggested a different area of application.
+One of the central observations of BlackBox was the amount of valuable knowledge that already exists within an architectural practice.
 
-Architectural practice is based on accumulated experience. Previous projects, technical solutions, commercial strategies, design narratives, and visual references all contribute to the way decisions are made.
+This knowledge is not limited to drawings, reports, or technical standards. It also includes competition narratives, client communication strategies, material research, graphic approaches, and increasingly, knowledge about working with AI itself.
 
-AI can provide a new method of accessing this accumulated knowledge. Its role is not to replace architectural judgement, but to provide additional context at the moment decisions are made.
+The example of AI image prompting demonstrated this clearly. A designer may spend weeks or months developing a vocabulary that consistently produces useful results with an image generation model. The final prompt is not simply a line of text. It reflects a process of experimentation, iteration, and accumulated understanding of how the AI system responds.
 
-## Organisational memory is an untapped resource
+Without a mechanism for sharing and preserving this knowledge, it remains attached to individual team members.
 
-Architectural offices continuously produce intellectual assets.
+BlackBox explored whether AI could help transform this individual knowledge into a more accessible collective resource.
 
-This includes not only drawings and specifications, but also presentations, competition texts, graphic methods, successful workflows, and increasingly, AI-related knowledge such as prompts and methods.
+## Generic AI Requires Context
 
-The challenge is not only preserving this information but making it usable.
+Large Language Models have broad knowledge and are capable of discussing architecture, history, construction, and many other subjects.
 
-An archive that cannot be searched or understood effectively has limited value. AI offers the possibility of turning existing information into a more active resource within everyday practice.
+However, the development of BlackBox highlighted a distinction between general knowledge and the specific culture of a practice.
 
-## AI systems need organisational context
+An office develops its own ways of describing projects, organising presentations, selecting references, and approaching recurring technical or design questions. This knowledge exists across decades of projects and internal discussions.
 
-General AI models provide broad knowledge but lack understanding of a particular office.
+The role of organisational memory is to provide this missing context.
 
-The identity of a practice is developed through years of projects, discussions, experiments, and decisions. This includes the language used in presentations, approaches to design problems, technical preferences, and methods of communication.
+By connecting a general AI model with project documents, image archives, office standards, and established workflows, the responses of the system can become more relevant to the environment in which it operates.
 
-Providing AI with access to this organisational memory offers a method of adapting a general system to the culture and knowledge of a specific practice.
+This does not create an AI that replaces the identity of an office. It creates a tool that can access and make use of that identity.
 
-## The future is likely to involve hybrid AI systems
+## Technical Possibility and Practical Adoption Are Different Challenges
 
-The experience of BlackBox suggested that a fully local AI environment was not necessarily the most practical solution.
+The BlackBox prototype demonstrated that a sophisticated AI environment could be built using accessible open-source tools.
 
-Local models provide advantages in terms of privacy, ownership of information, and control. Commercial systems currently provide advantages in speed and capability.
+The more difficult question was whether such a system would become part of everyday office practice.
 
-A practical office environment may therefore combine multiple models, selecting the most appropriate tool depending on the sensitivity and complexity of the task.
+This depends on factors beyond technical capability: speed, reliability, simplicity, maintenance requirements, and whether the system addresses a clearly defined need.
 
-## Agentic development changes who can create digital tools
+The experience of developing BlackBox suggested that future office AI systems may be more successful when introduced gradually through targeted workflows rather than as large and comprehensive platforms.
 
-A significant discovery of the project was the ability of domain specialists to participate directly in software creation.
+## AI Changes Access to Bespoke Digital Tools
 
-Through AI-assisted coding, professionals can define a problem, describe the desired workflow, evaluate the results, and guide the development process.
+A secondary but important outcome of the project was the experience of developing the system itself.
 
-This creates opportunities for more specialised tools that address the particular needs of individual practices.
+The significance of agentic development is not merely that AI can produce code. The more practical consequence is that professionals can investigate digital problems that are highly specific to their own field.
 
-## Successful AI adoption requires simplicity
+An architectural office may never commission a dedicated software solution for tasks such as searching historic competition narratives, managing AI prompting knowledge, or creating a semantic archive of visual references. These problems are often too specialised for commercial products.
 
-The development of BlackBox demonstrated that technical possibility and practical usefulness are not always the same.
+AI-assisted development reduces the effort required to test these ideas and to build small prototypes.
 
-Future AI tools in architecture are likely to succeed when they address clearly defined problems, integrate into existing workflows, and require minimal additional effort from users.
+BlackBox itself was an example of this process.
 
-Small, reliable interventions may often be more effective than large and complex platforms.
+## A Hybrid Approach May Be More Realistic
+
+The original ambition of BlackBox was to explore a fully local AI environment.
+
+This was driven by legitimate concerns around confidentiality and the desire for greater control over office information.
+
+The practical experience demonstrated that local models can perform many tasks effectively, but they also introduce limitations in terms of speed and reliability.
+
+A future office environment may therefore combine multiple approaches. Sensitive information may remain within private systems, while more demanding tasks may benefit from external AI services.
+
+The important lesson from BlackBox was that the surrounding workflow and organisational knowledge may be more important than committing to a single AI model or provider.
