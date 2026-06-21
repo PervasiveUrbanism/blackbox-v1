@@ -1,31 +1,29 @@
 # Conclusion
 
-BlackBox V1 began as an investigation into how artificial intelligence could support architectural practice. It developed into a broader reflection on the relationship between AI, knowledge, and creative work.
+BlackBox began with a curiosity about a new technology and developed into an investigation of how artificial intelligence could interact with the accumulated knowledge of an architectural practice.
 
-The project did not produce a complete model for the future architectural office. It was a small experiment conducted at a particular moment in the rapid development of AI technology. Many of the technical limitations encountered during the project will likely change as models, hardware, and software continue to evolve.
+The project was carried out during a period of rapid development in AI. The capabilities of Large Language Models, open-source tools, and AI-assisted development continue to change quickly. Some of the technical limitations encountered during BlackBox will likely be addressed by future developments in hardware, software, and models.
 
-However, the central question remains relevant.
+The broader question explored through the project, however, remains relevant.
 
-Architectural practices accumulate large amounts of knowledge. This includes design approaches, technical solutions, material research, graphic standards, commercial experience, and increasingly, knowledge about how to work effectively with AI itself.
+Architectural offices are not only places where new designs are produced. They are also repositories of previous decisions, discussions, technical knowledge, visual research, and methods of working. A significant part of the intellectual value of a practice exists in this accumulated experience.
 
-The challenge is not simply storing this information. The challenge is making it available when it can contribute to a new decision.
+The challenge is not simply preserving this information. The challenge is making it available at the moment when it can support a new project, a technical decision, a competition submission, or a conversation with a client.
 
-Large Language Models provide a new way of interacting with this accumulated knowledge. A general AI system can be combined with the specific memory of a practice, allowing it to operate with a greater understanding of the context in which it is being used.
+Artificial intelligence introduces a new way of approaching this relationship between past and future work.
 
-In this sense, the future role of AI may not be that of an autonomous architect.
+General AI models provide broad knowledge, but they do not inherently possess the specific context of an individual practice. By connecting these systems to office documentation, visual archives, standards, and established workflows, it becomes possible to create AI tools that respond more closely to the culture and experience of a particular organisation.
 
-It may be closer to an assistant that helps a practice remember, communicate, and make use of its own experience.
+This was the central question explored through BlackBox.
 
-Such a system would not replace architectural judgement. The responsibility for interpretation, creativity, and decision-making remains with the architect.
+The project did not provide a final answer or a definitive model for future architectural practice. It demonstrated one possible approach and revealed both its opportunities and practical limitations.
 
-The role of AI is to provide access to information, identify connections, and reduce the effort required to navigate an increasingly complex body of knowledge.
+The development of BlackBox also showed that the process of experimenting with AI can be valuable in itself. Building a prototype, testing workflows, and encountering limitations created a more nuanced understanding of where AI may provide genuine value within architectural practice.
 
-BlackBox explored one possible approach to this relationship between general intelligence and specific organisational memory.
+Ultimately, the most interesting role of AI may not be to replace architectural thinking, but to extend an architect's ability to engage with the knowledge that already exists within a practice.
 
-The experiment began with a simple question:
+BlackBox started with a simple question:
 
 > How do we preserve what we learn?
 
-The answer remains open. The technologies involved will continue to change, and future systems may take very different forms.
-
-However, the experience of BlackBox suggests that one productive direction for AI in architecture may lie not only in generating new ideas, but also in helping practices understand and make use of everything they have already created.
+The experiment suggested that a future answer may not lie in creating ever larger archives of information, but in developing better ways of having a conversation with the knowledge we already possess.
