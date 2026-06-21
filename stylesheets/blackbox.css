@@ -43,14 +43,19 @@ body {
 
 #inner-body {
   background: #fff;
+  --header-height: 0px;
 }
 
 header {
-  border-bottom: 1px solid var(--border);
-  background: #fff;
+  display: none;
 }
 
-header button[title="Toggle theme"] {
+[data-slot="sidebar"] {
+  top: 1rem;
+  height: calc(100svh - 2rem);
+}
+
+[data-slot="sidebar"] > .h-9 {
   display: none;
 }
 
@@ -60,8 +65,8 @@ article {
 }
 
 #page-header {
-  border-top: 3px solid var(--blackbox-accent);
-  padding-top: 1.2rem;
+  border-top: 0;
+  padding-top: 0;
 }
 
 #page-header h1 {
@@ -111,6 +116,33 @@ article {
 @media (max-width: 1023px) {
   article {
     margin-inline: auto;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1023px) {
+  [data-slot="sidebar-wrapper"] {
+    display: grid !important;
+    grid-template-columns: 18rem minmax(0, 1fr);
+  }
+
+  [data-slot="sidebar"] {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 719px) {
+  #inner-body {
+    --header-height: 3.5rem;
+  }
+
+  header {
+    display: block;
+    border-bottom: 0;
+    background: #fff;
+  }
+
+  header .ml-auto {
+    display: none;
   }
 }
 
