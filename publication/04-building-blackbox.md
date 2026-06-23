@@ -10,7 +10,7 @@ In this respect, the process had similarities with architectural design. Early s
 
 ![FIGURE 09 — Development Timeline](assets/diagrams/Timeline.png)
 
-*The evolution of BlackBox from the first experiments with local Large Language Models to a functioning AI-assisted workspace.*
+*The evolution of BlackBox: from the first experiments with local Large Language Models to an AI-assisted workspace.*
 
 ---
 
@@ -22,13 +22,13 @@ Ollama was installed on the available workstation, allowing different open-sourc
 
 The initial experiments were intentionally open-ended. Questions such as the most appropriate AI model, the required infrastructure, or the eventual purpose of the system were not fully defined.
 
-Instead, each technical experiment suggested further questions.
+Instead, each technical experiment suggested further questions:
 
-Could visual references be organised through AI?
+- Could visual references be organised through AI?
 
-Could office documentation become part of a conversational interface?
+- Could office documentation become part of a conversational interface?
 
-Could multiple specialised applications operate as a connected ecosystem?
+- Could multiple specialised applications operate as a connected ecosystem?
 
 The answers to these questions shaped the development of the following stages.
 

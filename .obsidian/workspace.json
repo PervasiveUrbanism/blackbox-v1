@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publication/03-the-blackbox-experiment.md",
+                "file": "publication/04-building-blackbox.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "03-the-blackbox-experiment"
+              "title": "04-building-blackbox"
             }
           }
         ]
@@ -185,12 +185,12 @@
   },
   "active": "ab059deaad627c4e",
   "lastOpenFiles": [
-    "assets/screenshots/PP_AI_Details.png",
-    "assets/screenshots/PP Images.png",
     "publication/03-the-blackbox-experiment.md",
     "publication/02-ai-in-architectural-practice.md",
     "publication/01-introduction.md",
     "publication/00-overview.md",
+    "assets/screenshots/PP_AI_Details.png",
+    "assets/screenshots/PP Images.png",
     "publication/04-building-blackbox.md",
     "assets/diagrams/OrganisationalKnowledge.png.tmp$$",
     "assets/diagrams/Stack.png.tmp$$",

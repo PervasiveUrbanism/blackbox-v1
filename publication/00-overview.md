@@ -46,9 +46,9 @@ BlackBox V1 was developed between February and May 2026 as a working prototype e
 
 ---
 
-![FIGURE 03 — Physical BlackBox Workstation](assets/images/BlackBox.jpg)
+![FIGURE 03 — Physical BlackBox Workstation](assets/images/BlackBox.jpeg)
 
-*The physical BlackBox prototype: a local AI workstation built within a working architectural office environment.*
+*The physical BlackBox prototype: an **Apple M4** as local AI workstation.*
 
 ---
 
