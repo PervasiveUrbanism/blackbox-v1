@@ -1,6 +1,7 @@
 # Why I Started BlackBox
+## How a curiosity about open-source AI became an architectural experiment.
 
-BlackBox did not begin with a detailed proposal, a technical specification, or a clearly defined development roadmap.
+**BlackBox** did not begin with a detailed proposal, a technical specification, or a clearly defined development roadmap.
 
 The project emerged from a personal curiosity about artificial intelligence and an ambition to understand how this rapidly developing technology could be applied within architectural practice.
 

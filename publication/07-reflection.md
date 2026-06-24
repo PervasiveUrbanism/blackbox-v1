@@ -1,51 +1,61 @@
 # Reflection
 
-BlackBox was never intended to become a commercial software product. It was an experiment aimed at understanding whether artificial intelligence could become a useful interface between architectural practice and its accumulated knowledge.
+## Understanding where the experiment ended and what remained
 
-By May 2026, the project had reached a point where many of the original questions had been explored. A functioning prototype existed. The technical architecture had been tested, workflows had been implemented, and the practical limitations of the system had become clearer.
+By May 2026, BlackBox had reached a point where the original objectives of the project had largely been explored.
 
-At this stage, the nature of the project changed.
+A local AI environment had been established. Documentation systems, image archives, conversational interfaces, and collaborative tools had been connected into a working ecosystem. Several of the core ideas behind the project had been tested in practice.
 
-The question was no longer whether another application could be integrated, whether a new AI model could be tested, or whether additional functionality could be developed. The more relevant question was whether continuing development would create meaningful value within the context of the office.
+At the same time, it had become increasingly clear that BlackBox would not arrive at a conventional endpoint.
 
-A successful digital tool requires more than technical capability. It requires long-term maintenance, organisational support, clear ownership, and most importantly, users who integrate it into their daily work.
+Unlike a building project, there was no obvious moment at which the work could be declared complete. Every successful experiment suggested additional possibilities. Every integration revealed further opportunities for development.
 
-BlackBox had demonstrated that an AI-assisted organisational memory was technically possible. It had also demonstrated that creating a reliable office platform would require a different level of institutional commitment.
+This raised a question that only became apparent towards the end of the project:
 
-For this reason, the project was concluded.
+What exactly was BlackBox?
 
-Looking back, this decision does not represent the end of the ideas explored through BlackBox. On the contrary, the value of the project lies largely in the understanding gained during its development.
+At the beginning, the answer appeared relatively straightforward. The project was conceived as an exploration of organisational memory and the potential role of artificial intelligence within architectural practice.
 
-## A Change in Perspective
+Looking back, this description feels incomplete.
 
-One of the initial ambitions of BlackBox was to create a comprehensive AI ecosystem: a single environment where documentation, images, references, conversations, and collaborative tools could be connected.
+The image archive became an investigation into AI-assisted curation and semantic search. The documentation system raised questions about knowledge retrieval and office learning. AI-assisted development suggested new relationships between architects and software creation. Collaborative environments hinted at future forms of AI-supported ideation.
 
-The development process gradually changed this perspective.
+Each component gradually developed its own trajectory.
 
-The most useful applications of AI within architectural practice may not necessarily emerge through large and comprehensive platforms. They may appear through smaller, carefully selected interventions that address specific problems and integrate naturally into existing workflows.
+In this sense, BlackBox became less a single project and more an environment within which multiple investigations could take place.
 
-A successful AI system may sometimes be almost invisible. It may appear as a better way of finding a previous document, accessing a technical solution at the right moment, recording successful AI workflows developed by colleagues, or reducing repetitive administrative work.
+This helps explain why the project never felt finished.
 
-This shift in perspective was perhaps one of the most important outcomes of BlackBox.
+The objective was never to create a definitive software platform. Rather, the platform became a framework through which questions could be explored, tested, and evaluated. Some proved useful. Others revealed limitations. Many generated entirely new directions of inquiry.
 
-The original question was:
+The experience also changed my understanding of what it means to experiment with AI.
 
-> How can an architectural office build its own AI environment?
+At the beginning of the project, much of the attention was focused on models, prompts, and technical capabilities. Over time, these technologies became less interesting than the questions they enabled.
 
-The later question became:
+How should knowledge be organised?
 
-> Where can AI provide meaningful support within everyday architectural practice?
+What should remain under human control?
 
-## Beyond BlackBox
+How can visual references become more accessible?
 
-Although the BlackBox prototype was concluded, many of its ideas continued beyond the project.
+How might architects develop their own digital tools?
 
-The experience with agentic development became particularly influential. The ability to identify a specific architectural problem, discuss possible technical approaches with AI, and develop a working prototype introduced a new way of approaching digital workflows.
+What forms of expertise become more valuable when information is easier to retrieve?
 
-The significance of this observation was not that architects should become software engineers. The more practical implication was that architects can increasingly explore and test digital tools that respond to the particular needs of their own practice.
+These questions felt more durable than the technologies themselves.
 
-The methods developed during BlackBox have already been applied to other workflows, including AI-assisted documentation, specifications, and scheduling systems developed within my own architectural work.
+Many of the specific tools used within BlackBox will inevitably change. Models will improve, interfaces will evolve, and new software platforms will emerge. The practical details of the implementation are unlikely to remain relevant for very long.
 
-BlackBox therefore remains a completed project, but not a closed chapter.
+The underlying questions, however, appear less dependent on technological cycles.
 
-Its most valuable contribution was not the software itself. It was the process of experimentation and the observations that emerged from it.
+Architectural practices will continue to accumulate knowledge. New generations of architects will continue to inherit archives, references, workflows, and project histories created by those who came before. The challenge of making this knowledge accessible is unlikely to disappear.
+
+In this respect, BlackBox may be understood less as a software experiment and more as an attempt to explore a particular relationship between technology and organisational learning.
+
+The project did not produce a final answer to the question that initiated it.
+
+It did, however, provide a clearer understanding of the problem itself.
+
+And perhaps that is a reasonable outcome for an experiment.
+
+The purpose of a successful experiment is not always to confirm a solution. Sometimes it is simply to reveal a better question.
