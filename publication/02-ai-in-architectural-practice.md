@@ -1,4 +1,5 @@
 # AI in Architectural Practice
+## The emergence of new forms of knowledge in everyday architectural work.
 
 By the time BlackBox was developed in early 2026, artificial intelligence had already become part of the everyday conversation within architecture. The most visible impact was perhaps in the field of image generation. Architects began using AI tools to create atmospheric visualisations, explore material qualities, test different visual directions, and communicate early design ideas.
 

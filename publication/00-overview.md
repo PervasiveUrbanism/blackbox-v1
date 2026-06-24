@@ -1,6 +1,7 @@
 # Overview
+## From archives and libraries to AI-assisted organisational memory.
 
-![FIGURE 01 — Library of Maria Laach Monastery](assets/images/MariaLaach.jpg)
+![FIGURE 01 — Books](assets/images/AdobeStock_626382685.jpeg)
 
 For centuries, libraries have represented humanity’s effort to collect, organise, and transmit knowledge. They were not only places where information was stored, but systems designed to ensure that ideas could survive beyond the individuals who created them.
 
@@ -46,9 +47,9 @@ BlackBox V1 was developed between February and May 2026 as a working prototype e
 
 ---
 
-![FIGURE 03 — Physical BlackBox Workstation](assets/images/BlackBox.jpg)
+![FIGURE 03 — Physical BlackBox Workstation](assets/images/BlackBox.jpeg)
 
-*The physical BlackBox prototype: a local AI workstation built within a working architectural office environment.*
+*The physical BlackBox prototype: an **Apple M4** as local AI workstation.*
 
 ---
 
