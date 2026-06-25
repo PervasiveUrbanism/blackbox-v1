@@ -6,7 +6,7 @@ BlackBox was not developed to confirm a predefined theory about artificial intel
 
 Some findings confirmed the initial expectations. Others challenged assumptions that had seemed entirely reasonable at the outset. In several cases, the most important lesson was not related to the performance of an AI model at all, but to the conditions required for AI to become useful within a real working environment.
 
-The observations that follow therefore concern more than the prototype itself. They describe a broader set of practical questions about open-source software, infrastructure, human judgement, bespoke tool development, and the changing role of architects in relation to software.
+The observations that follow therefore concern more than the prototype itself. They describe a broader set of practical questions about open-source software, infrastructure, human judgement, documentation, bespoke tool development, and the changing role of architects in relation to software.
 
 ---
 
@@ -39,6 +39,22 @@ This distinction is easy to overlook because the model is the most visible part 
 A useful AI system therefore cannot be evaluated only through the quality of its outputs. It must also be judged by whether people can access it reliably, whether data remains organised, whether permissions are appropriate, whether integrations can be maintained, and whether the workflow fits the conditions of everyday practice.
 
 The development of BlackBox suggested that the integration of AI is as much an organisational and infrastructural challenge as a computational one. The model may provide the intelligence, but the wider system determines whether that intelligence can be used.
+
+---
+
+## Maintenance Became a Design Problem
+
+A related concern emerged around continuity. If a bespoke system depends entirely on the person who created it, then it cannot be considered a reliable office tool. The question was therefore not only whether BlackBox could be built, but whether it could remain understandable if the original author was no longer available.
+
+This became one of the more revealing aspects of the experiment. BlackBox began to document itself.
+
+Two different forms of documentation were developed in parallel. The first was a technical handbook written for future maintainers. It described the structure of the system, the role of individual components, the logic of the integrations, and the steps required to maintain or extend the prototype. In effect, this became a machine-to-machine document: a manual that could be read not only by another colleague, but also by another agentic coding system asked to continue development in the future.
+
+The second was a user handbook for employees. As features were developed, AI was used to generate explanations, workflows, and guidance that could be published in BookStack. This allowed staff to understand what the system could do, how to access its tools, and how the different parts of the environment related to one another.
+
+The result was a form of self-documentation. BlackBox did not simply produce an AI-assisted workspace; it also produced part of the knowledge required to use and maintain that workspace. This was important because agentic development can easily create systems that are fast to build but difficult to inherit. Documentation became the mechanism through which the prototype could become more resilient.
+
+This observation connects directly to the wider question of organisational memory. If office knowledge is allowed to remain only in the mind of one person, it is fragile. By writing its own technical and user documentation into BookStack, BlackBox turned part of its development process into shared knowledge that could outlast the initial act of authorship.
 
 ---
 
