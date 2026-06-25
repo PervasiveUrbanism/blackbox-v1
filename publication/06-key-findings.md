@@ -1,59 +1,62 @@
-
 # Lessons from BlackBox
 
 ## What the experiment revealed
 
-By the conclusion of the project, BlackBox had become more than a collection of software tools. It had also become a way of exploring how artificial intelligence might fit within the everyday realities of architectural practice.
+By the conclusion of the project, BlackBox had become more than a collection of software tools. It had become a case study through which several broader questions about AI in architectural practice could be examined.
 
-Not all of the initial ambitions were realised. Some ideas remained experimental, while others proved more valuable than expected. Yet the project generated a number of lessons that extended beyond the specific technologies involved.
+Not all of the initial ambitions were realised. Some components remained experimental, some workflows proved more difficult than expected, and several ideas opened questions that could not be resolved within the timeframe of the prototype. Yet the project produced a number of lessons that extend beyond the specific technologies involved.
 
-Many of these lessons were less about AI itself and more about the relationship between technology, knowledge, and practice.
+These lessons are not primarily about whether one model, platform, or interface performed better than another. They concern the relationship between artificial intelligence, organisational knowledge, and the ability of architectural practices to develop their own digital tools.
 
 ---
 
 ## Organisational Memory Is More Valuable Than It Appears
 
-Architectural practices generate a remarkable amount of knowledge.
+Architectural practices generate a considerable amount of knowledge over time.
 
-Drawings, reports, presentations, competition submissions, visual references, technical solutions, workflows, and project reviews accumulate continuously over time. Collectively, they represent a significant investment of effort and experience.
+Drawings, reports, presentations, competition submissions, visual references, technical solutions, workflows, project reviews, prompts, and informal lessons accumulate continuously through practice. Each represents a small investment of attention and experience. Collectively, they form a body of knowledge that is far larger than any single project.
 
-Much of this knowledge already exists within offices, yet it often remains difficult to access. Documents may be archived, images may be stored in libraries, and lessons learned may remain with the individuals who participated in a project.
+Much of this knowledge already exists within offices, but it is often difficult to access when it is needed. Documents may be archived, images stored in fragmented libraries, useful workflows hidden in personal folders, and lessons learned retained by the individuals who happened to be involved in a project.
 
-BlackBox suggested that the challenge is not necessarily creating more knowledge. In many cases, the greater challenge is making existing knowledge accessible and useful.
+BlackBox suggested that the challenge is not simply to produce more information. In many cases, the more important task is to make existing knowledge accessible, searchable, and reusable.
 
-This observation gradually shifted the focus of the project. What began as an exploration of artificial intelligence increasingly became an exploration of organisational memory.
+This gradually shifted the focus of the project. What began as an exploration of artificial intelligence became, increasingly, an exploration of organisational memory. AI was valuable not because it generated new material from nothing, but because it offered new ways of engaging with the knowledge the practice had already produced.
+
+This lesson is particularly relevant to architecture because the discipline depends heavily on precedent, accumulated judgement, and project-specific experience. If that knowledge remains difficult to retrieve, it cannot fully contribute to future work.
 
 ---
 
 ## General AI Becomes More Useful Through Context
 
-Large Language Models possess broad knowledge but little understanding of the specific environment in which they are deployed.
+Large Language Models possess broad knowledge, but they do not automatically understand the specific environment in which they are deployed.
 
-An architectural practice, however, develops its own culture, references, standards, workflows, and ways of communicating. These qualities emerge over many years and are distributed across projects, documents, images, and conversations.
+An architectural practice develops its own culture, references, standards, workflows, terminology, and ways of communicating. These qualities are not contained in a single document. They emerge over many years and are distributed across projects, images, reports, presentations, conversations, and procedures.
 
-One of the more interesting lessons from BlackBox was that useful specialisation may not require specialised AI models.
+One of the central lessons of BlackBox was that useful specialisation does not necessarily require a specialised model.
 
-Instead, a general model can become significantly more relevant when provided with contextual information from the organisation itself.
+A general-purpose AI can become significantly more relevant when it is given access to the contextual knowledge of the organisation using it. The model may remain generic, but the environment in which it operates becomes specific.
 
-This distinction is important because it shifts attention away from training custom AI systems and towards curating the knowledge environments in which those systems operate.
+This distinction is important. Much discussion around AI customisation focuses on training, fine-tuning, or building dedicated models. BlackBox pointed towards another possibility: that office-specific intelligence may emerge through access to office-specific knowledge.
 
-A model may remain generic. The context can become specific.
+This is not learning in the technical sense of changing the model's weights. It is a form of contextual learning through retrieval, exposure, and structured access. The AI becomes more useful because it can refer to the documents, references, terminology, and workflows of the practice.
+
+The implication is that the future value of AI in architectural offices may depend less on creating proprietary models and more on curating the knowledge environments around them. A model may remain general, while the context makes its responses situated.
 
 ---
 
 ## Knowledge Takes Many Forms
 
-One assumption challenged by the project was that organisational knowledge primarily exists as documents.
+One assumption challenged by the project was that organisational knowledge primarily exists as written documentation.
 
-In reality, architectural knowledge appears in many different forms.
-
-Some knowledge exists as written guidance or technical standards. Some exists within image collections and visual references. Some exists in workflows, prompts, presentations, or informal practices developed by individuals over time.
+In reality, architectural knowledge appears in many different forms. Some of it is explicit and textual: standards, guides, reports, technical notes, or onboarding documents. Some is visual: precedents, material references, competition images, screenshots, drawings, and photographs. Some exists as workflows, prompts, templates, naming conventions, informal habits, or repeated patterns of decision-making.
 
 This diversity helps explain why no single software platform was sufficient.
 
-Different forms of knowledge required different methods of organisation and retrieval. Images, documents, conversations, and collaborative environments each demanded their own tools and interfaces.
+Documents, images, conversations, and collaborative environments each required different forms of organisation and retrieval. BookStack could structure written knowledge. PhotoPrism could support visual references and AI-assisted metadata. OpenWebUI could provide conversational access. tldraw suggested a possible visual workspace for assembling and developing ideas.
 
-The resulting system was therefore less a database than an ecosystem.
+The resulting system was therefore less a database than an ecosystem. Its value depended on allowing different forms of knowledge to remain in the environments best suited to them while making them accessible through a shared conversational layer.
+
+This is an important distinction for architectural practice. Attempts to centralise all knowledge into a single repository often fail because they flatten the differences between media, tasks, and working habits. BlackBox instead suggested that organisational memory may be more effective when it is distributed across specialised systems but connected through a common interface.
 
 ---
 
@@ -63,13 +66,13 @@ Throughout the project, AI proved capable of generating descriptions, classifica
 
 What it did not provide was judgement.
 
-The usefulness of the system continued to depend on human decisions. Architects selected references, determined priorities, defined taxonomies, evaluated outcomes, and decided which information was relevant within a particular context.
+The usefulness of the system continued to depend on human decisions. Architects selected references, determined priorities, defined taxonomies, evaluated outcomes, and decided which information was relevant within a particular context. AI could increase the speed and scale of interpretation, but it could not determine what mattered to the practice.
 
-This observation became increasingly important as the project developed.
+This became particularly clear in the relationship between human keywords and AI-generated labels within the image archive. Human classification provided continuity, intention, and consistency. AI interpretation provided breadth, speed, and additional associations. The value emerged from their combination rather than from the replacement of one by the other.
 
-The value of AI was not that it removed the need for expertise. Rather, it amplified the usefulness of expertise by making information easier to organise, retrieve, and navigate.
+The same principle applied to documentation and software development. AI could assist in writing guides, summarising systems, generating code, or suggesting implementation strategies, but the direction of the work still depended on human judgement.
 
-The relationship that emerged was therefore collaborative rather than substitutive.
+The lesson is therefore not that AI reduces the importance of expertise. It changes how expertise can be applied. By making information easier to organise, retrieve, and navigate, AI can amplify the value of human knowledge, but it cannot substitute for the judgement that gives that knowledge meaning.
 
 ---
 
@@ -77,15 +80,19 @@ The relationship that emerged was therefore collaborative rather than substituti
 
 Perhaps the most unexpected lesson concerned software development itself.
 
-Historically, many of the problems encountered within architectural offices have been too specific to justify dedicated software development. They are important enough to create friction in everyday work, but not important enough to become commercial products.
+Historically, many of the problems encountered within architectural offices have been too specific to justify dedicated software development. They are important enough to create friction in everyday work, but not general enough to become commercial products.
 
 AI-assisted development changes this situation.
 
-Throughout the BlackBox project it became possible to investigate highly specialised workflows, develop prototypes, and test ideas that would previously have remained impractical.
+Throughout the BlackBox project, conversational planning, Codex implementation, Git-based rollback, and iterative testing made it possible to investigate specialised workflows and develop functional prototypes without a conventional software team.
 
-This does not eliminate the need for technical knowledge. Building reliable systems still requires planning, testing, maintenance, and critical judgement. However, the threshold for experimentation has been significantly lowered.
+This does not eliminate the need for technical understanding. Reliable systems still require planning, testing, documentation, maintenance, deployment, and critical judgement. The self-documentation of BlackBox became important for precisely this reason. A tool that cannot be understood or maintained by others remains fragile, regardless of how quickly it was built.
 
-For architects and designers, this may prove to be one of the more significant implications of AI. The ability to create bespoke digital tools is becoming accessible to a much wider group of people.
+However, the threshold for experimentation has been significantly lowered. Architectural practices can now test internal tools for problems that would previously have remained unresolved because they were too small, too specific, or too uncertain to justify external software development.
+
+This may prove to be one of the more significant implications of AI for practice. The ability to build bespoke digital tools is becoming accessible to a wider group of people, including architects whose primary expertise is not software engineering.
+
+The consequence is not that every practice should become a software company. Rather, practices may become more capable of shaping their own digital environments, testing small tools, and adapting workflows around their own knowledge and methods.
 
 ---
 
@@ -93,12 +100,12 @@ For architects and designers, this may prove to be one of the more significant i
 
 The final lesson emerged only towards the end of the project.
 
-BlackBox never reached a moment where it felt complete.
+BlackBox never reached a point where it felt complete. Each successful experiment revealed additional possibilities. Image archives suggested embeddings and semantic similarity. Documentation systems suggested richer forms of retrieval. Collaborative environments suggested new approaches to AI-assisted ideation and visual organisation. Agentic coding suggested a new relationship between architectural expertise and software development.
 
-Each successful experiment revealed additional possibilities. Image archives suggested embeddings and semantic similarity. Documentation systems suggested richer forms of retrieval. Collaborative environments suggested new approaches to ideation and design support.
+Rather than converging towards a finished product, the project continued to branch into new directions. This was not simply the result of an expanding feature list. It reflected the fact that each component exposed a larger question about how AI might participate in architectural practice.
 
-Rather than converging towards a finished product, the project continued to branch into new directions.
+The image archive raised questions about architectural interpretation. The documentation system raised questions about organisational memory. The conversational interface raised questions about contextual intelligence. The coding workflow raised questions about who is able to develop software for practice.
 
-This experience reinforced the idea that emerging technologies are often best understood through experimentation rather than prediction. The most valuable outcomes are not always the solutions that are produced, but the questions that become visible in the process.
+This experience reinforced the idea that emerging technologies are often best understood through experimentation rather than prediction. The most valuable outcomes are not always the solutions that are produced, but the questions that become visible through making them.
 
-BlackBox therefore concluded not with a definitive answer, but with a clearer understanding of where further investigation might begin.
+BlackBox therefore concluded not with a definitive answer, but with a clearer framework for further investigation. It suggested that AI in architectural practice may be understood through three connected concerns: how knowledge is organised and retrieved, how context makes general AI more specific, and how agentic development enables practices to build tools around their own needs.
