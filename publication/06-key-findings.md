@@ -20,9 +20,9 @@ Much of this knowledge already exists within offices, but it is often difficult 
 
 BlackBox suggested that the challenge is not simply to produce more information. In many cases, the more important task is to make existing knowledge accessible, searchable, and reusable.
 
-This gradually shifted the focus of the project. What began as an exploration of artificial intelligence became, increasingly, an exploration of organisational memory. AI was valuable not because it generated new material from nothing, but because it offered new ways of engaging with the knowledge the practice had already produced.
+Retrieval matters because it changes behaviour. A reference that can be found at the right moment can influence a design discussion. A previous narrative can shape a new submission. A technical solution can prevent a problem from being solved twice. Knowledge becomes valuable not because it has been stored, but because it can re-enter current work.
 
-This lesson is particularly relevant to architecture because the discipline depends heavily on precedent, accumulated judgement, and project-specific experience. If that knowledge remains difficult to retrieve, it cannot fully contribute to future work.
+This gradually shifted the focus of the project. What began as an exploration of artificial intelligence became, increasingly, an exploration of organisational memory. AI was valuable not because it generated new material from nothing, but because it offered new ways of reactivating what the practice had already produced.
 
 ---
 
@@ -56,7 +56,7 @@ Documents, images, conversations, and collaborative environments each required d
 
 The resulting system was therefore less a database than an ecosystem. Its value depended on allowing different forms of knowledge to remain in the environments best suited to them while making them accessible through a shared conversational layer.
 
-This is an important distinction for architectural practice. Attempts to centralise all knowledge into a single repository often fail because they flatten the differences between media, tasks, and working habits. BlackBox instead suggested that organisational memory may be more effective when it is distributed across specialised systems but connected through a common interface.
+This is an important distinction for architectural practice. Attempts to centralise all knowledge into a single repository often fail because they flatten the differences between media, tasks, and working habits. BlackBox instead suggested that practice knowledge may be more effective when it remains distributed across specialised systems but connected through a common interface.
 
 ---
 
@@ -96,16 +96,10 @@ The consequence is not that every practice should become a software company. Rat
 
 ---
 
-## The Questions Continue
+## A Connected Set of Lessons
 
-The final lesson emerged only towards the end of the project.
+The findings of BlackBox are closely related. Better retrieval allows previous knowledge to participate in current work. Organisational context makes a general model more relevant to a particular practice. Agentic development makes it possible to build the interfaces and workflows through which those connections are tested.
 
-BlackBox never reached a point where it felt complete. Each successful experiment revealed additional possibilities. Image archives suggested embeddings and semantic similarity. Documentation systems suggested richer forms of retrieval. Collaborative environments suggested new approaches to AI-assisted ideation and visual organisation. Agentic coding suggested a new relationship between architectural expertise and software development.
+These are not three independent claims. They describe different parts of the same shift: from AI as an external service towards AI as something embedded within the knowledge, tools, and working methods of a practice.
 
-Rather than converging towards a finished product, the project continued to branch into new directions. This was not simply the result of an expanding feature list. It reflected the fact that each component exposed a larger question about how AI might participate in architectural practice.
-
-The image archive raised questions about architectural interpretation. The documentation system raised questions about organisational memory. The conversational interface raised questions about contextual intelligence. The coding workflow raised questions about who is able to develop software for practice.
-
-This experience reinforced the idea that emerging technologies are often best understood through experimentation rather than prediction. The most valuable outcomes are not always the solutions that are produced, but the questions that become visible through making them.
-
-BlackBox therefore concluded not with a definitive answer, but with a clearer framework for further investigation. It suggested that AI in architectural practice may be understood through three connected concerns: how knowledge is organised and retrieved, how context makes general AI more specific, and how agentic development enables practices to build tools around their own needs.
+BlackBox did not establish a final model for how this should be done. It provided a practical framework through which the relationships could be observed. The following chapter reflects on what kind of project BlackBox had become by the point at which the experiment was brought to a close.
