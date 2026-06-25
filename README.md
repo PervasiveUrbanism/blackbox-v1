@@ -1,4 +1,3 @@
-
 # How Do We Preserve What We Learn?
 
 ## AI, Organisational Memory and Architectural Practice
@@ -13,7 +12,7 @@ At its core, BlackBox was driven by a simple question:
 
 > **How do we preserve what we learn?**
 
-The publication documents the motivations behind the project, the technical prototype that was developed, the lessons learned during implementation, and broader reflections on AI, organisational memory, and architectural practice.
+The publication documents the motivations behind the project, the technical prototype that was developed, the lessons learned during implementation, and broader reflections on AI, organisational memory, contextual intelligence, and architectural practice.
 
 ## Read the Publication
 
@@ -26,6 +25,7 @@ The complete publication is available online:
 
 - AI in architectural practice
 - Organisational memory
+- Contextual AI
 - Office culture and knowledge retrieval
 - Visual archives and semantic search
 - Local and hybrid AI environments
@@ -43,9 +43,15 @@ Architect, educator, and researcher based in London.
 
 The project was developed as an independent investigation into the relationship between artificial intelligence and architectural practice.
 
-## A Note on the Writing Process
+## Acknowledgements
 
-One final observation is perhaps worth mentioning.
+BlackBox was developed in the context of Mossessian Architecture, whose work and discussions around design, culture, knowledge, and practice provided an important background to the project.
+
+I am especially grateful to Michel Mossessian, whose reflections on the architectural "black box" gave the project both its name and a wider conceptual frame. The prototype did not attempt to define or automate the design process. Instead, it explored how the traces surrounding that process — references, texts, images, workflows, decisions, and conversations — might become more accessible through AI.
+
+The project also depended on a wider open-source ecosystem, including the communities behind tools such as Ollama, OpenWebUI, BookStack, PhotoPrism, tldraw, Heimdall, and many related projects.
+
+## A Note on the Writing Process
 
 This publication was itself produced as an experiment in AI-assisted writing. The manuscript emerged through hundreds of conversations with ChatGPT, involving drafting, rewriting, criticism, editing, and continuous refinement.
 
