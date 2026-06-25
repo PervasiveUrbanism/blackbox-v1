@@ -6,7 +6,7 @@ BlackBox was not developed to confirm a predefined theory about artificial intel
 
 Some findings confirmed the initial expectations. Others challenged assumptions that had seemed entirely reasonable at the outset. In several cases, the most important lesson was not related to the performance of an AI model at all, but to the conditions required for AI to become useful within a real working environment.
 
-The observations that follow therefore concern more than the prototype itself. They describe a broader set of practical questions about open-source software, infrastructure, human judgement, documentation, bespoke tool development, and the changing role of architects in relation to software.
+The observations that follow are therefore practical. They concern open-source software, infrastructure, maintenance, human judgement, and the economics of bespoke tool development.
 
 ---
 
@@ -54,7 +54,7 @@ The second was a user handbook for employees. As features were developed, AI was
 
 The result was a form of self-documentation. BlackBox did not simply produce an AI-assisted workspace; it also produced part of the knowledge required to use and maintain that workspace. This was important because agentic development can easily create systems that are fast to build but difficult to inherit. Documentation became the mechanism through which the prototype could become more resilient.
 
-This observation connects directly to the wider question of organisational memory. If office knowledge is allowed to remain only in the mind of one person, it is fragile. By writing its own technical and user documentation into BookStack, BlackBox turned part of its development process into shared knowledge that could outlast the initial act of authorship.
+If office knowledge remains only in the mind of one person, it is fragile. By writing its technical and user documentation into BookStack, BlackBox turned part of its own development process into shared knowledge that could outlast the initial act of authorship.
 
 ---
 
@@ -84,7 +84,7 @@ Architectural practices contain many recurring problems that are too specific to
 
 How can previous competition narratives be searched? How should successful AI prompts be shared between colleagues? How can a large image archive remain useful over time? How can internal documentation become easier to access?
 
-Individually, these questions may appear minor. They rarely justify the cost of commissioning a dedicated software system, yet collectively they consume time, reduce continuity, and contribute to the gradual loss of organisational knowledge.
+Individually, these questions may appear minor. They rarely justify the cost of commissioning a dedicated software system, yet collectively they consume time, reduce continuity, and contribute to the gradual loss of practice knowledge.
 
 In most offices, they are addressed through improvised workflows: folders, spreadsheets, naming conventions, shared drives, or the memory of a particular colleague. These solutions may work temporarily, but they are difficult to scale and often depend on individual habits rather than shared systems.
 
@@ -100,20 +100,8 @@ This observation may prove more consequential than any individual component of B
 
 ---
 
-## The Questions Became More Interesting Than the Answers
+## From Observations to Lessons
 
-Towards the end of the development period, it became increasingly difficult to describe BlackBox as a single product moving towards completion.
+Taken together, these observations changed the emphasis of the project. The decisive questions were no longer whether a model could produce an acceptable response or whether an integration could be made to work. They concerned what happened once AI entered the wider conditions of practice: who maintained the system, how knowledge remained transferable, where human judgement was still required, and which problems became newly feasible to address.
 
-Each successful experiment generated further questions. The integration of image archives led to investigations into embeddings, semantic similarity, and the difference between object recognition and architectural interpretation. Documentation systems raised questions about conversational retrieval, authorship, and the maintenance of office knowledge. Collaborative environments suggested possible forms of AI-assisted ideation and visual organisation.
-
-The prototype therefore expanded through consequences rather than through a fixed feature list. Solving one problem exposed another layer of the same problem, while connecting two components often created an entirely new direction of inquiry.
-
-This pattern changed the way the project was understood. BlackBox gradually became less a product than a framework for investigating different aspects of AI-assisted architectural practice. Its components remained connected, but each also developed into a research question in its own right.
-
-The image archive was not only an archive; it became an investigation into architectural metadata and semantic retrieval. The documentation platform was not only a wiki; it became a test of whether organisational knowledge could support contextual AI. The coding process was not only implementation; it became evidence that architects could engage directly in bespoke software development.
-
-This explains why the project never reached a conventional endpoint. A finished product would have required the scope to close, yet the principal value of the prototype lay in its ability to reveal further areas of inquiry.
-
-BlackBox should therefore be understood as a connected set of investigations rather than a completed system. The software demonstrated what could be built, but the questions emerging from its development proved more transferable than the prototype itself.
-
-That distinction matters for the chapters that follow. The conclusions of the project do not depend on whether BlackBox continues in its original form. They arise from what the process revealed about organisational memory, contextual AI, and the changing accessibility of bespoke software development within architectural practice.
+The following chapter draws out the broader lessons from these practical findings. It considers what BlackBox suggests about organisational memory, contextual AI, and the ability of architectural practices to shape their own digital tools.
