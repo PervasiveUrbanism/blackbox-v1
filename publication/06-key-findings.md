@@ -1,65 +1,161 @@
-# Lessons from BlackBox
+# Key Findings - What did I learn?
 
-The development of BlackBox was a practical experiment carried out at a particular moment in the development of AI technologies. The observations that emerged from it should therefore not be understood as universal conclusions about the future of architecture.
+## What BlackBox revealed about AI in architectural practice
 
-They are reflections based on the experience of developing, testing, and evaluating an AI-assisted workspace within an architectural environment.
+Looking back, the most valuable outcome of BlackBox was not the software itself.
 
-## Organisational Knowledge Has Untapped Potential
+Individual applications will continue to evolve. New language models will appear, interfaces will improve, and technologies that seemed remarkable only a few months earlier will inevitably be replaced.
 
-One of the central observations of BlackBox was the amount of valuable knowledge that already exists within an architectural practice.
+The more enduring outcome of the project was a different way of thinking about AI within architectural practice.
 
-This knowledge is not limited to drawings, reports, or technical standards. It also includes competition narratives, client communication strategies, material research, graphic approaches, and increasingly, knowledge about working with AI itself.
+Several observations emerged repeatedly throughout the development process.
 
-The example of AI image prompting demonstrated this clearly. A designer may spend weeks or months developing a vocabulary that consistently produces useful results with an image generation model. The final prompt is not simply a line of text. It reflects a process of experimentation, iteration, and accumulated understanding of how the AI system responds.
+---
 
-Without a mechanism for sharing and preserving this knowledge, it remains attached to individual team members.
+## AI Is More Valuable as a Knowledge Partner Than a Design Generator
 
-BlackBox explored whether AI could help transform this individual knowledge into a more accessible collective resource.
+The current public discussion around AI is often dominated by generation.
 
-## Generic AI Requires Context
+Can AI produce a floor plan?
 
-Large Language Models have broad knowledge and are capable of discussing architecture, history, construction, and many other subjects.
+Can it generate a façade?
 
-However, the development of BlackBox highlighted a distinction between general knowledge and the specific culture of a practice.
+Can it create a render?
 
-An office develops its own ways of describing projects, organising presentations, selecting references, and approaching recurring technical or design questions. This knowledge exists across decades of projects and internal discussions.
+These questions are important, but they represent only one part of architectural practice.
 
-The role of organisational memory is to provide this missing context.
+BlackBox suggested that AI becomes equally valuable when it helps architects work with the knowledge that already exists within a practice.
 
-By connecting a general AI model with project documents, image archives, office standards, and established workflows, the responses of the system can become more relevant to the environment in which it operates.
+Finding the right precedent.
 
-This does not create an AI that replaces the identity of an office. It creates a tool that can access and make use of that identity.
+Understanding why a previous decision was made.
 
-## Technical Possibility and Practical Adoption Are Different Challenges
+Locating a successful competition narrative.
 
-The BlackBox prototype demonstrated that a sophisticated AI environment could be built using accessible open-source tools.
+Retrieving an image that illustrates a difficult spatial concept.
 
-The more difficult question was whether such a system would become part of everyday office practice.
+These tasks rarely attract attention, yet they occupy a significant part of everyday architectural work.
 
-This depends on factors beyond technical capability: speed, reliability, simplicity, maintenance requirements, and whether the system addresses a clearly defined need.
+AI therefore has the potential not only to generate new material, but also to make existing knowledge more accessible.
 
-The experience of developing BlackBox suggested that future office AI systems may be more successful when introduced gradually through targeted workflows rather than as large and comprehensive platforms.
+---
 
-## AI Changes Access to Bespoke Digital Tools
+## Context Is More Important Than Specialisation
 
-A secondary but important outcome of the project was the experience of developing the system itself.
+One of the original assumptions behind the project was that a useful architectural AI might require a specialised model trained specifically for architecture.
 
-The significance of agentic development is not merely that AI can produce code. The more practical consequence is that professionals can investigate digital problems that are highly specific to their own field.
+The experiments suggested something different.
 
-An architectural office may never commission a dedicated software solution for tasks such as searching historic competition narratives, managing AI prompting knowledge, or creating a semantic archive of visual references. These problems are often too specialised for commercial products.
+General-purpose language models already possess considerable architectural knowledge.
 
-AI-assisted development reduces the effort required to test these ideas and to build small prototypes.
+What they lack is context.
 
-BlackBox itself was an example of this process.
+They do not know the projects of a particular office.
 
-## A Hybrid Approach May Be More Realistic
+They do not know its design language, previous submissions, preferred references, internal standards, or accumulated experience.
 
-The original ambition of BlackBox was to explore a fully local AI environment.
+BlackBox therefore explored a different approach.
 
-This was driven by legitimate concerns around confidentiality and the desire for greater control over office information.
+Rather than changing the model, it changed the information available to the model.
 
-The practical experience demonstrated that local models can perform many tasks effectively, but they also introduce limitations in terms of speed and reliability.
+This proved to be one of the most important conceptual shifts of the project.
 
-A future office environment may therefore combine multiple approaches. Sensitive information may remain within private systems, while more demanding tasks may benefit from external AI services.
+---
 
-The important lesson from BlackBox was that the surrounding workflow and organisational knowledge may be more important than committing to a single AI model or provider.
+## Organisational Memory Changes the Conversation
+
+Perhaps the central finding of the project was that organisational knowledge does more than improve search.
+
+It changes the character of the conversation itself.
+
+When previous projects, documentation, image archives, office standards, and successful prompts become available to an AI system, responses begin to reflect the accumulated experience of the practice.
+
+The AI has not been retrained.
+
+Instead, it has been given access to the environment in which the practice has learned over many years.
+
+This became one of the defining ideas behind BlackBox.
+
+Rather than attempting to create a bespoke architectural intelligence, the project explored whether a general-purpose AI could gradually become a more relevant conversational partner simply by engaging with the accumulated knowledge of the organisation.
+
+In many respects this resembles the way architects themselves learn.
+
+A young architect does not absorb the culture of a practice from a single manual. Understanding develops gradually through exposure to projects, references, reviews, discussions, and everyday work.
+
+BlackBox explored whether AI conversations could develop in a similar way.
+
+---
+
+## Organisational Memory Becomes a Platform for Ideation
+
+This observation led to an unexpected conclusion.
+
+Initially, organisational memory appeared to be concerned with preservation and retrieval.
+
+Over time, however, it became clear that retrieval was only the beginning.
+
+Once organisational knowledge becomes part of a conversation, it also becomes part of the creative process.
+
+References can inspire new ideas.
+
+Previous competition narratives can suggest new structures.
+
+Earlier technical solutions can provoke alternative approaches.
+
+Image archives can introduce unexpected associations.
+
+The organisational memory of the practice begins to participate in ideation.
+
+This was never an explicit objective of the project.
+
+It emerged naturally from the experiments themselves.
+
+---
+
+## BlackBox Became an Incubator
+
+Perhaps the most unexpected finding was that BlackBox gradually stopped feeling like a software project.
+
+Instead, it became an environment for experimentation.
+
+Each successful integration suggested another possibility.
+
+Image search led to semantic search.
+
+Documentation suggested AI-assisted onboarding.
+
+Prompt engineering became knowledge management.
+
+Visual references suggested collaborative ideation.
+
+Coding assistants suggested bespoke software development.
+
+Every component became the starting point for another idea.
+
+In retrospect, BlackBox was less a finished application than an incubator for future AI experiments within architectural practice.
+
+This may ultimately prove to be its greatest contribution.
+
+Rather than proposing a single solution, it demonstrated a way of continuously exploring new ones.
+
+---
+
+## The Most Important Lesson
+
+Perhaps the most significant lesson was also the simplest.
+
+Artificial intelligence does not become more useful because it becomes more intelligent.
+
+It becomes more useful because it becomes more relevant.
+
+For architectural practice, relevance emerges through context.
+
+The more an AI system can engage with the accumulated knowledge, experience, and culture of a practice, the more meaningful its contribution becomes.
+
+BlackBox was ultimately an exploration of that idea.
+
+The prototype itself may evolve, and the technologies it depends upon will undoubtedly change.
+
+The underlying question, however, is likely to remain:
+
+**How can artificial intelligence participate in the accumulated knowledge from which architecture emerges?**

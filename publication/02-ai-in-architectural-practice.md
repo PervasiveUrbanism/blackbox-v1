@@ -1,25 +1,51 @@
-# AI in Architectural Practice
+# AI in Architectural Practice - Why yet another AI project?
 
-By the time BlackBox was developed in early 2026, artificial intelligence had already become part of the everyday conversation within architecture. The most visible impact was perhaps in the field of image generation. Architects began using AI tools to create atmospheric visualisations, explore material qualities, test different visual directions, and communicate early design ideas.
+## Rethinking where artificial intelligence can create value
 
-At the same time, Large Language Models started to appear in many smaller tasks within daily practice. Writing project descriptions, reviewing texts, structuring presentations, researching unfamiliar subjects, and preparing early project strategies became areas where AI could provide immediate assistance.
+By 2026, artificial intelligence had become impossible to ignore within architecture.
 
-What characterised this period was that adoption was often informal. There was rarely a single office-wide strategy or a clearly defined methodology. Instead, individual architects experimented with different tools, discovered their own workflows, and gradually developed personal ways of interacting with AI.
+Almost every week introduced another application promising to transform the design process. AI could generate floor plans, create masterplans, produce renderings, or optimise layouts. Much of the discussion centred on one question:
 
-Some designers became highly skilled at writing prompts for image generation. Through repeated testing, they developed an understanding of how particular models interpreted language, which descriptions produced useful results, and how small changes in wording influenced the final image.
+**Can AI design architecture?**
 
-Over time, these prompts became records of experimentation. They captured a designer's understanding of a particular tool and the techniques that produced consistent results.
+These developments were undeniably impressive, yet I often found myself questioning whether they addressed the most interesting problems facing architectural practice.
 
-This raised an interesting question: where did this knowledge go?
+Many of these tools focused on the final artefact rather than the process that produced it.
 
-A successful prompt might remain stored in a personal document, an individual account, or simply in the memory of the person who developed it. If that person moved to another project or left the office, this knowledge could easily disappear.
+Some of the public discussion reflected this tendency. Prompts such as *"Make this crumpled piece of paper look like a Zaha Hadid building"* became widely shared online. They are entertaining demonstrations of image generation, but they also risk encouraging a superficial understanding of architecture by reducing the identity of a practice to a recognisable visual language.
 
-The same observation applied to many other aspects of working with AI. As architects tested new tools, they developed methods, workflows, and practical knowledge that often remained individual rather than becoming part of a wider office culture.
+Architectural identity is not simply a style. It is the product of years of experimentation, accumulated knowledge, evolving design methods, and the collective experience of the people within a practice.
 
-This was one of the observations that influenced the development of BlackBox.
+Architectural practice itself rarely begins with geometry.
 
-The project was not only concerned with making previous project information more accessible. It was also interested in understanding how new forms of digital knowledge could be captured as they emerged.
+Much of an architect's work consists of understanding context, researching precedents, coordinating consultants, communicating ideas, and making decisions based on knowledge accumulated across many projects.
 
-A successful AI prompt developed by one designer might become useful to a colleague in the same way that a successful technical detail, a graphic method, or a competition narrative could inform future work.
+Design does not emerge from a blank sheet of paper.
 
-BlackBox therefore emerged not only from the question of how an office remembers its past, but also how it records the new knowledge it continuously creates while adopting new technologies.
+It emerges from context.
+
+This observation gradually shifted my attention away from generation and towards knowledge.
+
+Rather than asking whether AI could generate architecture, I became interested in a different question:
+
+**Could AI become part of the environment from which architecture emerges?**
+
+Architectural practices continuously produce knowledge. Competition narratives, technical solutions, material research, visual references, presentation techniques, and AI prompting strategies all accumulate over time. Collectively, they shape the identity of a practice.
+
+At the same time, the AI landscape appeared increasingly fragmented. One application generated images, another produced specifications, another summarised meetings, while others generated code or floor plans. Each addressed an isolated task, yet very few engaged with the accumulated knowledge that already existed inside an architectural office.
+
+This was not a rejection of generative AI. BlackBox itself relies extensively on Large Language Models and AI-assisted image analysis. The question was simply whether another direction deserved equal attention.
+
+If architectural practice is fundamentally about working with knowledge, perhaps AI should not only generate new ideas, but also help architects retrieve, connect, and build upon the knowledge they already create.
+
+BlackBox was developed to explore that possibility.
+
+Rather than beginning with the question,
+
+**Can AI design architecture?**
+
+the project began with another:
+
+**Can AI help an architectural practice think with its own accumulated knowledge?**
+
+This publication documents one experiment in exploring that idea.

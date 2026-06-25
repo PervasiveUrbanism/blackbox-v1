@@ -1,123 +1,43 @@
-# The BlackBox Experiment
+# The BlackBox Experiment - What did I build?
+
+## Building a conversational interface between architects and organisational knowledge
 
 The BlackBox project explored whether an architectural office could create its own AI-assisted workspace by combining existing open-source applications, local AI models, and custom software integrations.
 
-The objective was not to develop a single application that performed every task. Instead, the project treated the office as an ecosystem of different types of knowledge.
+One of the first surprises during the development of the project was the maturity of the open-source ecosystem surrounding artificial intelligence. Many of the tools that formed the foundation of BlackBox were available free of charge and could be installed on standard office hardware. Rather than depending on a single commercial platform, the project was able to combine specialised applications into a modular environment tailored to the needs of an architectural practice.
 
-Project documentation, technical standards, visual references, sketches, and AI conversations all have different formats and therefore required different tools.
+The objective was not to develop a single application that performed every task. Instead, the project treated the office as an ecosystem of different forms of knowledge. Project documentation, technical standards, visual references, sketches, and AI conversations all have different characteristics and therefore benefit from different tools.
 
-The BlackBox environment was organised around a central conversational interface. OpenWebUI provided access to different Large Language Models and acted as the point through which users could interact with the wider ecosystem.
+The BlackBox environment was organised around a central conversational interface through which these different sources of knowledge could be accessed.
 
 ---
 
 ![FIGURE 03 — Technical BlackBox Ecosystem Diagram](assets/diagrams/Stack.png)
 
-
-*OpenWebUI as the central interface connecting AI models with different forms of organisational knowledge including documentation, images, and collaborative environments.*
-
----
-
-The main components of the system were:
-
-- **Ollama** — local execution and management of Large Language Models.
-- **OpenWebUI** — conversational interface through which users interacted with AI models and connected systems.
-- **BookStack** — structured office documentation including workflows, standards, technical guides, and user instructions.
-- **PhotoPrism** — visual archive containing reference imagery and AI-assisted image descriptions.
-- **tldraw** — collaborative digital whiteboard explored as a space for sketches and early ideas.
-- **Heimdall** — dashboard providing a single entry point to all applications.
-
-The intention was that each application maintained its own specialised function while AI provided a common method of accessing information.
+*OpenWebUI as the central interface connecting AI models with documentation, image archives, and collaborative environments.*
 
 ---
 
-![FIGURE 04 — Heimdall Dashboard](assets/screenshots/BB_Homescreen.png)
+## Ollama and the Language Models
 
-*The central landing page of the BlackBox environment providing access to all applications.*
+At the foundation of the system sat Ollama, an open-source framework for running Large Language Models locally.
 
----
+Ollama made it possible to download, manage, and switch between different models without changing the surrounding software environment. During development, various models were tested for different tasks, ranging from general language assistance to image description and classification.
 
-## Visual Organisational Memory
+This separation between the model and the surrounding applications proved important. The objective was never to build a system dependent on a particular AI provider. As models continue to evolve, the underlying AI engine can be replaced while the broader ecosystem remains unchanged.
 
-The use of PhotoPrism was one of the more experimental aspects of BlackBox.
-
-Architectural practices collect large numbers of visual references. These may include precedent images, materials, interiors, landscapes, construction details, or AI-generated imagery.
-
-Traditionally, these collections rely on folders, filenames, or manually assigned keywords. While effective to a degree, this approach requires users to know how the archive has been organised.
-
-BlackBox investigated whether AI could add an additional descriptive layer to visual knowledge.
-
-When a new image was uploaded to PhotoPrism, a custom workflow automatically triggered an AI analysis.
-
-A locally hosted Large Language Model received the image together with a specifically developed architectural prompt. The model generated two forms of information:
-
-- a written architectural description;
-- a set of architectural labels describing the content and character of the image.
-
-These AI-generated fields existed alongside manually controlled keywords.
-
-This distinction was deliberate. Keywords represented a stable office taxonomy and required human control. The AI-generated descriptions and labels provided a more flexible interpretation that could adapt to the content of each image.
+In this sense, Ollama acted as an abstraction layer between the applications and the AI models themselves.
 
 ---
 
-![FIGURE 05 — PhotoPrism AI Labelling](assets/screenshots/PP_AI_Details.png)
+## Why OpenWebUI?
 
-![FIGURE 05a — PhotoPrism AI Description](assets/screenshots/PP_AI_Labels.png)
+While Ollama provides the infrastructure for running AI models, interaction with these models normally takes place through the command line.
 
-*Example of AI-generated descriptions and architectural labels automatically assigned after image upload.*
+For experimentation this is perfectly acceptable, but it is unlikely to be suitable for everyday office use.
 
----
+OpenWebUI was therefore introduced as the primary user interface. It provided a familiar conversational environment while remaining independent of the underlying model.
 
-## Conversational Access to Images
+This proved particularly valuable because OpenWebUI could connect not only to locally hosted models running through Ollama, but also to commercial services such as OpenAI or Anthropic. The interface remained the same while the underlying model could be changed depending on the task.
 
-A custom integration connected OpenWebUI with the PhotoPrism archive.
-
-This allowed a user to retrieve images through natural language rather than browsing folders or searching predefined categories.
-
-For example, an architect could write:
-
-> Show me examples of dark timber interiors with a calm and atmospheric character.
-
-OpenWebUI would interpret the request, search the AI-generated descriptions and labels stored in the PhotoPrism database, and return matching references directly within the conversation.
-
----
-![FIGURE 06 — PhotoPrism Labels](assets/screenshots/BB_PP_Search.png)
-
-*Natural language search of the PhotoPrism archive directly within the AI conversation.*
-
----
-
-This workflow represented an initial experiment in allowing visual archives to become part of a conversation.
-
-The retrieval process relied on textual descriptions and labels generated by the AI. A future development stage was planned around image embeddings, allowing searches based on deeper semantic and visual relationships.
-
----
-
-## Documentation and Collaborative Knowledge
-
-Not all office knowledge is visual. A significant amount exists in documents, standards, guides, and internal instructions.
-
-BookStack was selected as the documentation platform because it provided a structured and accessible way of organising this information.
-
-The long-term ambition was that this knowledge could become available through AI-assisted retrieval in the same way as the visual archive.
-
----
-
-![FIGURE 07 — BookStack Documentation](assets/screenshots/BS_Screen.png)
-
-*Example of structured office knowledge including workflows, standards, and technical documentation.*
-
----
-
-The project also explored tldraw as a collaborative digital environment. The intention was to investigate whether future AI systems could participate in more visual and diagrammatic forms of architectural thinking.
-
----
-
-![FIGURE 08 — Drawing Canvas](assets/screenshots/BB_Canvas.png)
-
-*Experimental collaborative drawing environment for sketches, diagrams, and future AI-assisted ideation.*
-
----
-
-By combining these different components, BlackBox became a prototype of an AI-assisted organisational memory system.
-
-The project did not attempt to create an AI that designed architecture. It explored whether existing knowledge within an office could be made more accessible through conversational interfaces and AI-assisted indexing.
+This modular approach became one of the central principles of BlackBox. Individual components could evolve independently without requiring changes to the entire system.

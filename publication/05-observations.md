@@ -1,63 +1,63 @@
-# Observations
+# Observations - What surprised me?
 
-By May 2026, BlackBox existed as a functioning prototype consisting of multiple interconnected applications accessible through the office network.
+## What the prototype revealed
 
-The experiment demonstrated that an AI-assisted workspace could be assembled using open-source applications, locally hosted AI models, and custom integrations. The central idea of connecting different forms of office knowledge through a conversational interface proved technically possible.
+By the time the first working version of BlackBox was operational, many of the original technical questions had already been answered. Local language models could run successfully, documentation systems could be connected, images could be analysed automatically, and individual applications could exchange information.
 
-At the same time, the transition from a working prototype to a practical everyday office tool revealed a different set of challenges.
+Surprisingly, these technical achievements were not the most interesting outcome of the project.
 
-## The Difference Between a Prototype and an Office Tool
+As the system gradually took shape, it became clear that the prototype was revealing just as much about architectural practice as it was about artificial intelligence. Assumptions I had held at the beginning of the project were repeatedly challenged, often in unexpected ways.
 
-One of the most important observations was that technical feasibility does not automatically result in practical adoption.
+One of the first surprises was the maturity of the open-source AI ecosystem.
 
-BlackBox successfully connected image archives, documentation platforms, AI models, and collaborative environments. However, a successful office tool requires more than functionality. It must integrate naturally into existing workflows, provide immediate benefits, and require minimal effort from its users.
+When the project began, I expected local AI to involve significant technical compromises and a fragmented collection of unfinished software. Instead, I discovered an impressive ecosystem of applications that could be combined into a coherent working environment. Ollama, OpenWebUI, BookStack, PhotoPrism, Heimdall, Docker, n8n and many other projects demonstrated that sophisticated AI environments were no longer reserved for large technology companies. They could be assembled on an ordinary workstation using freely available software.
 
-During the development process, the scale of the ecosystem gradually increased. Additional applications, user management systems, integrations, and custom workflows were introduced.
+Equally important was the modular nature of these tools. None of them attempted to solve every problem. Each application focused on a particular task, yet together they formed an ecosystem that was remarkably flexible. This gradually changed the way I thought about software development. Rather than searching for one comprehensive application, it became possible to think in terms of small, specialised components connected through well-defined interfaces.
 
-Looking back, a more incremental approach may have been more suitable. Instead of building a complete ecosystem, individual tools could have been introduced, tested with users, and expanded only once their value had been demonstrated.
+The second surprise concerned the process of development itself.
 
-This was an important lesson. The complexity of a system should be justified by the usefulness it provides.
+Before BlackBox, I would have assumed that building a system like this required years of software engineering experience. Instead, artificial intelligence fundamentally changed the relationship between architect and programmer.
 
-## Local AI and Performance
+Development became conversational.
 
-The original intention of BlackBox was to investigate a fully local AI environment.
+Ideas were first discussed with ChatGPT, where broader strategies, technical alternatives and implementation approaches could be explored without writing a single line of code. As these discussions matured, they were broken down into smaller development tasks before being implemented with Codex.
 
-This decision was motivated by concerns regarding confidentiality and by the desire to experiment without recurring costs. These remain relevant considerations for architectural practices, particularly when working with confidential competition material or private clients.
+The work rarely happened in large leaps. Features were developed one step at a time, committed to Git, tested, evaluated and refined before the next step began. On several occasions Git rollback became just as valuable as the implementation itself, allowing unsuccessful experiments to be abandoned without hesitation.
 
-The practical experience, however, showed clear limitations.
+This iterative workflow felt surprisingly familiar. It resembled the way architects develop projects: exploring alternatives, testing ideas, reviewing the outcome and gradually refining the solution rather than attempting to solve everything in a single move.
 
-Local models could successfully perform many of the required tasks, including image classification, text generation, and information retrieval. However, response times were often considerably slower than commercial AI services.
+Another observation emerged from an entirely different direction.
 
-This became particularly visible in more complex workflows.
+At the beginning of the project, prompts appeared to be temporary instructions written for a single conversation with an AI model. Over time, however, I realised that carefully developed prompts represented valuable intellectual work in their own right.
 
-For example, searching the PhotoPrism archive through OpenWebUI involved several stages. The system needed to interpret the user's request, formulate a search, query the image database, and return matching references. The workflow was functional, but the delay interrupted the natural conversational experience expected from AI systems.
+Considerable experimentation was often required before an AI consistently produced useful architectural descriptions, meaningful image labels or reliable search results. Once refined, these prompts became reusable assets that could benefit other members of the practice.
 
-The reliability of image retrieval was also dependent on the maturity of the indexing strategy. BlackBox V1 relied primarily on AI-generated descriptions and architectural labels. A later stage involving image embeddings was planned but not implemented within the timeframe of the project.
+In many respects they began to resemble Grasshopper definitions, Dynamo scripts, Revit families or carefully developed office templates. They represented knowledge that had been accumulated through experimentation and was worth preserving rather than recreating.
 
-These observations suggested that a practical office system may benefit from a hybrid approach. Local models offer control over data and privacy, while commercial cloud services currently provide advantages in speed and capability.
+The experiments with PhotoPrism produced another unexpected insight.
 
-## Infrastructure and Maintenance
+Initially, I imagined that AI might eventually replace manual image organisation. Instead, the project demonstrated that human judgement and AI interpretation complemented one another remarkably well.
 
-Another observation concerned the amount of work required beyond the AI models themselves.
+Architects remained responsible for selecting meaningful references and providing a lightweight organisational structure. AI then contributed detailed descriptions, semantic labels and architectural observations that would have been impractical to create manually across thousands of images.
 
-Installing and running a language model was only a small part of creating a usable office environment.
+Neither approach proved sufficient on its own.
 
-A functioning system required user management, network configuration, documentation, software maintenance, backups, and reliable communication between multiple applications.
+Together they created a richer and considerably more useful archive than either manual organisation or automated tagging could have achieved independently.
 
-As development progressed, a growing amount of time was spent maintaining the ecosystem rather than adding new features.
+Perhaps the most significant observation only became clear towards the end of the project.
 
-This highlighted a broader challenge: introducing AI into professional practice is not only a question of intelligence or model quality. It also requires robust infrastructure and long-term maintenance.
+I originally believed I was building a single AI application.
 
-## Agentic Development as an Unexpected Outcome
+Looking back, I realise that BlackBox gradually became something quite different.
 
-One of the most interesting outcomes of BlackBox was not a feature of the final platform but the way in which it was developed.
+Every successful experiment suggested another possibility. Semantic image search led naturally to conversational retrieval. Documentation suggested AI-assisted onboarding. Prompt engineering became a form of organisational knowledge. AI-assisted software development revealed opportunities for creating bespoke digital tools that would previously have been unrealistic for a small practice.
 
-AI-assisted development made it possible to move from an architectural problem to a functioning digital experiment within a relatively short period of time.
+The prototype slowly transformed into an environment for experimentation.
 
-The importance of this observation was not that AI can write software. The more relevant insight was that architects can now investigate highly specific digital problems that previously would have been difficult to address through commercial software or traditional development processes.
+Rather than providing one definitive solution, BlackBox became a place where new ideas could be explored, connected and evaluated. Each component hinted at several more that could be developed in the future.
 
-The experience of BlackBox demonstrated this through concrete examples: the creation of a visual archive with AI-assisted indexing, the exploration of conversational access to office knowledge, and the integration of multiple specialised tools into a single environment.
+In retrospect, this may have been the project's most valuable outcome.
 
-Many of these experiments would have been difficult to justify as independent software projects.
+The software itself will continue to evolve, and individual technologies will inevitably be replaced. The more enduring contribution was the realisation that AI is not a single application to be adopted, but a growing ecosystem of possibilities that architects can actively shape through experimentation.
 
-The methods developed during BlackBox have continued beyond the project itself and have influenced later AI-assisted workflows in architectural practice.
+That shift in perspective became one of the most important observations of the entire project.

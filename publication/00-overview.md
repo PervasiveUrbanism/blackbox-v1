@@ -1,10 +1,10 @@
-# Overview
+# Overview - What is the problem?
 
 ![FIGURE 01 — Library of Maria Laach Monastery](assets/images/MariaLaach.jpg)
 
-For centuries, libraries have represented humanity’s effort to collect, organise, and transmit knowledge. They were not only places where information was stored, but systems designed to ensure that ideas could survive beyond the individuals who created them.
+For centuries, libraries have represented humanity's effort to collect, organise, and transmit knowledge. They were not only places where information was stored, but systems designed to ensure that ideas could survive beyond the individuals who created them.
 
-The technologies have changed—from manuscripts and books to digital documents and databases—but the underlying question has remained the same:
+The technologies have changed—from manuscripts and books to digital documents and databases—but the underlying question has remained remarkably consistent:
 
 **How do we preserve what we learn?**
 
@@ -12,46 +12,67 @@ Architecture has always depended on this process of continuity. Every new projec
 
 Within an architectural practice, this accumulated experience takes many forms. It exists in competition narratives, design presentations, technical solutions, material research, consultant relationships, graphic approaches, commercial strategies, and the many small decisions made throughout the life of a project.
 
-Over time, these individual projects create a collective memory. However, the existence of an archive does not necessarily mean that knowledge remains accessible. Documents may remain buried within project folders, images may be stored in libraries, and valuable experience may continue to exist primarily in the memories of the individuals who participated in the work.
+Over time, these individual projects create a collective memory. Yet architectural projects often extend over many years, sometimes across changing teams, consultants, and client organisations.
 
-The challenge is therefore not simply preserving information, but allowing previous knowledge to remain active and useful. How can the experience of past projects inform a new competition, support a technical decision, or contribute to a future design discussion?
+Design decisions that once appeared obvious can become difficult to reconstruct. Team members leave, priorities evolve, and the reasoning behind earlier choices may no longer be immediately accessible. Questions arise that seem simple but can be surprisingly difficult to answer:
 
-This distinction between archive and organisational memory is important. An archive contains information; organisational memory describes the relationship between that information and the people who can interpret, evaluate, and apply it. It includes formal documentation such as drawings, specifications, and standards, but also the tacit knowledge that develops through years of professional practice.
+- Why was this decision made?
+- Which alternatives were considered?
+- What constraints influenced the outcome?
+- Is this still the best solution, or has the original context changed?
 
-The ambition of organisational memory is therefore not only to remember the past but to create a continuity between previous experience and future work.
-
-Large Language Models introduce a new possibility in this relationship. They possess broad knowledge of architecture, construction, history, and language, but they do not have access to the internal culture of a particular office.
-
-A practice develops its identity over many years through projects, discussions, experiments, successes, and failures. It develops particular ways of describing ideas, preparing competition submissions, selecting references, communicating with clients, and solving technical challenges. This knowledge does not exist as a single document or manifesto; it is distributed across drawings, texts, images, and the experience of the people who produced them.
+The challenge is therefore not simply preserving information, but preserving understanding. How can the knowledge accumulated during one phase of a project remain available to those who inherit it later? And how can the experience of previous projects continue to inform future work?
 
 ---
+
 ![FIGURE 02 — Organisational Memory Diagram](assets/diagrams/OrganisationalKnowledge.png)
 
-*The relationship between past projects, accumulated knowledge, architectural judgement, and future work.*
+*Organisational memory as a relationship between past projects, accumulated knowledge, architectural judgement, and future work.*
 
 ---
 
+Organisational memory can be understood as the knowledge that accumulates within a practice over time. It includes not only completed projects, but also the lessons, references, workflows, relationships, and ways of thinking that develop through them.
 
-The question therefore becomes how a general AI model can become useful within such a specific environment.
+This knowledge takes many forms. Some of it exists in drawings, reports, presentations, and technical standards. Some can be found in image collections and visual references. Some remains embedded within conversations, habits, and individual experience.
 
-Rather than attempting to create an AI model that imitates the identity of a practice, it may be more productive to provide a general model with access to the context developed by that organisation. Previous project documents, visual archives, office standards, and emerging digital workflows can become the material through which AI responses become more relevant to a particular way of working.
+The challenge for any practice is how these different forms of knowledge can remain accessible over time.
 
-This idea can be illustrated through simple examples. A successful competition narrative from a previous project may provide a useful structure for a new submission. A carefully developed AI prompt may represent many hours of experimentation by a colleague and become valuable knowledge for the wider team. A technical solution developed for one building may suggest approaches to another. 
+Recent developments in artificial intelligence offer a new way of approaching this question.
 
-This was the question that led to the development of **BlackBox**.
+Large Language Models possess broad knowledge of architecture, construction, history, and language, yet they know nothing about the internal culture of a particular office.
 
-The name was inspired by the idea of the design black box: a space in which complex creative processes take place and where the relationship between input and output cannot always be fully reduced to explicit rules. Rather than attempting to define architectural thinking as a fixed process, the ambition was to explore whether an AI system could learn from the accumulated traces of an architectural practice—its texts, images, decisions, and references—and use this context to support future conversations.
+They do not know which competition submissions were successful, which references are repeatedly discussed, how projects are typically presented, or how particular design problems have been solved in the past.
 
-BlackBox V1 was developed between February and May 2026 as a working prototype exploring this possibility. It emerged gradually through experimentation, testing, and the integration of different technologies, in a manner not unlike an architectural design process where the brief becomes more clearly defined through making.
+A young architect joining a practice faces a similar situation.
+
+Although manuals, standards, and onboarding documents are useful, much of what defines an office is learned indirectly. Designers absorb knowledge through exposure to projects, presentations, reviews, references, discussions, and everyday decisions. Over time, recurring themes and priorities become familiar.
+
+This observation became one of the starting points for BlackBox.
+
+Rather than attempting to create a specialised AI model trained to imitate a particular practice, the project explored whether a general-purpose model could become more useful through access to organisational knowledge.
+
+Project narratives, visual references, technical standards, workflows, and previous decisions could become part of the context within which future conversations take place.
+
+The idea was not that the AI would become the office. Instead, the question was whether access to the accumulated output of a practice could make conversations more relevant to the people working within it.
+
+*BlackBox V1* was developed between February and May 2026 as an experiment exploring this possibility.
+
+The name *BlackBox* was inspired by Michel Mossessian's reflections on the often intangible nature of the architectural design process. Much of what shapes a project cannot easily be reduced to a sequence of explicit rules. Architectural knowledge is often distributed across references, experiences, discussions, and intuitions accumulated over time.
+
+My own interpretation of this idea was to explore whether AI could engage with this accumulated knowledge without attempting to formalise it into a fixed methodology. Rather than encoding a design philosophy directly into software, the ambition was to create an environment in which conversations could draw upon the memory of the organisation itself.
 
 ---
 
-![FIGURE 03 — Physical BlackBox Workstation](assets/images/BlackBox.jpeg)
+![FIGURE 03 — Physical BlackBox Workstation](assets/images/BlackBox.jpg)
 
-*The physical BlackBox prototype: an **Apple M4** as local AI workstation.*
+*The BlackBox prototype running on a small local workstation within an architectural office environment.*
 
 ---
 
-The system combined open-source applications, local and cloud AI models, and AI-assisted development to explore whether different forms of office knowledge could become accessible through a conversational interface.
+The project investigated whether a combination of open-source applications, local and cloud AI models, and AI-assisted development could create a new relationship between architects and the knowledge embedded within their own practice.
 
-The project was not intended to produce a definitive model for the future architectural office. It was a practical case study through which the opportunities, limitations, and questions emerging from AI-assisted organisational memory could be explored.
+The result was neither a finished product nor a definitive model for the future office. Instead, it became a practical case study through which the opportunities, limitations, and unexpected lessons of creating an AI-assisted organisational memory could be explored.
+
+More importantly, it became an opportunity to reconsider an old question through new technology:
+
+**How do we preserve what we learn?**

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publication/04-building-blackbox.md",
-                "mode": "preview",
-                "source": true
+                "file": "publication/01-introduction.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "04-building-blackbox"
+              "title": "01-introduction"
             }
           }
         ]
@@ -185,13 +185,21 @@
   },
   "active": "ab059deaad627c4e",
   "lastOpenFiles": [
-    "publication/03-the-blackbox-experiment.md",
-    "publication/02-ai-in-architectural-practice.md",
-    "publication/01-introduction.md",
+    "README.md",
     "publication/00-overview.md",
+    "publication/01-introduction.md",
+    "publication/02-ai-in-architectural-practice.md",
+    "publication/03-the-blackbox-experiment.md",
+    "publication/04-building-blackbox.md",
+    "publication/05-observations.md",
+    "publication/06-key-findings.md",
+    "publication/07-reflection.md",
+    "publication/08-conclusion.md",
+    "assets/images/BlackBox.jpeg",
+    "assets/images/AdobeStock_626382685.jpeg",
+    "assets/images/AdobeStock_417925889.jpeg",
     "assets/screenshots/PP_AI_Details.png",
     "assets/screenshots/PP Images.png",
-    "publication/04-building-blackbox.md",
     "assets/diagrams/OrganisationalKnowledge.png.tmp$$",
     "assets/diagrams/Stack.png.tmp$$",
     "assets/diagrams/Timeline.png",
@@ -201,16 +209,9 @@
     "assets/screenshots/BB_PP_Search.png",
     "assets/screenshots/BB PP Search2.png",
     "assets/diagrams/Stack.png",
-    "README.md",
-    "assets/diagrams/OrganisationalKnowledge.png",
-    "assets/images/MariaLaach.jpg",
     "assets/images/Unconfirmed 526738.crdownload",
     "assets/images",
     "assets/New folder",
-    "publication/08-conclusion.md",
-    "publication/07-reflection.md",
-    "publication/06-key-findings.md",
-    "publication/05-observations.md",
     "publication/New Text Document.txt",
     "publication/02-ai-in-architectural-practice - Copy.md",
     "publication/01-introduction - Copy.md"
