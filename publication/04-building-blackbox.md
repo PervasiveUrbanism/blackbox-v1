@@ -103,7 +103,14 @@ The experience exposed an important distinction between a technical demonstratio
 
 This also revealed a limitation of agentic coding. AI can help produce integrations quickly, but the surrounding responsibilities of deployment, access control, testing, maintenance, and support do not disappear. For small businesses, the opportunity to build bespoke software is therefore accompanied by a need to understand the infrastructure on which that software depends.
 
+
 ---
+![FIGURE 12 — Zitadel](assets/screenshots/Zitadel.png)
+
+*User management in Zitadel*
+
+---
+
 
 ## Development as Research
 

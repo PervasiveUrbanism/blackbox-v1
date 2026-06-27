@@ -21,6 +21,7 @@ The complete publication is available online:
 ###  [How Do We Preserve What We Learn?](https://pervasiveurbanism.github.io/blackbox-v1)
 
 
+
 ## Topics
 
 - AI in architectural practice
@@ -58,3 +59,5 @@ This publication was itself produced as an experiment in AI-assisted writing. Th
 The experiences described in these chapters are real. The project existed, the software was built, and the observations are based on direct experience. Yet very few sentences were written in the traditional sense. Instead, the text developed through an ongoing dialogue between author and AI.
 
 In that respect, the publication became a small extension of the BlackBox project itself: an exploration of how human judgement and artificial intelligence might work together to produce something neither would have created alone.
+
+![FIGURE 00 — Brainslug](assets/diagrams/Brainslug.png)

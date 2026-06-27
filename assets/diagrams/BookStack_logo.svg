@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 184.32 174.89">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke-linecap: round;
+      }
+
+      .st0, .st1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        stroke: #0288d1;
+        stroke-linejoin: round;
+        stroke-width: 4.8px;
+      }
+    </style>
+  </defs>
+  <path class="st0" d="M78.82,144.13l103.1-59.53-73.65-42.52L5.17,101.61l73.65,42.52Z"/>
+  <path class="st0" d="M5.17,101.61v17.01l73.65,42.52,103.1-59.53v-17.01"/>
+  <path class="st0" d="M78.82,172.48L5.17,129.96s-6-13.53,0-22.68l73.65,42.52,103.1-59.53v22.68l-103.1,59.53"/>
+  <path class="st0" d="M78.82,104.44l103.1-59.53L108.27,2.4,5.17,61.92l73.65,42.52Z"/>
+  <path class="st0" d="M78.82,104.44l103.1-59.53v22.68l-103.1,59.53L5.17,84.6s-4.86-14.11,0-22.68l73.65,42.52Z"/>
+  <path class="st0" d="M78.82,149.8L5.17,107.28s-6-13.53,0-22.68l73.65,42.52,103.1-59.53v22.68l-103.1,59.53"/>
+  <path class="st1" d="M125.46,12.32l-44.19,25.51,17.18,1.42,2.45,9.92,44.19-25.51-19.64-11.34Z"/>
+</svg>
