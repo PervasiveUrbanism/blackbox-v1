@@ -2,40 +2,26 @@
 
 ## From archive to conversation
 
-BlackBox began with a relatively simple question:
+BlackBox began with a question familiar to many architectural practices:
 
 **How do we preserve what we learn?**
 
-The question emerged from an observation familiar to many architectural practices. Projects accumulate knowledge over time, yet much of that knowledge remains difficult to access. Documents are archived, images are stored in libraries, workflows evolve, and experience gradually disperses across teams and individuals.
+Architectural projects generate knowledge continuously, but much of that knowledge becomes difficult to access once a project ends. Documents are archived, images are stored in libraries, workflows evolve, prompts are forgotten, and experience disperses across teams and individuals. The problem is not an absence of knowledge, but a loss of connection to knowledge already produced.
 
-Artificial intelligence appeared to offer a new way of engaging with this problem.
+BlackBox explored whether artificial intelligence could help restore some of those connections.
 
-Rather than treating archives as static repositories, AI introduced the possibility of interacting with accumulated knowledge through conversation. Images could become searchable through language. Documentation could become easier to navigate. Information distributed across different systems could become more accessible through a common interface.
+The prototype was modest in scale, but broad in scope. It combined open-source tools, local language models, documentation platforms, image archives, conversational interfaces, and AI-assisted development workflows into a working ecosystem. Its purpose was not to offer a finished model for the future office, but to test how different forms of practice knowledge might become easier to retrieve, interpret, and reuse.
 
-The BlackBox project explored this possibility through a practical prototype.
+The experiment suggested that AI may be useful in architectural practice not only because it can generate new material, but because it can help organise and reactivate existing knowledge. It also suggested that general AI systems can become more relevant when they operate within the specific context of a practice, and that agentic development may allow offices to test bespoke tools for problems too particular to attract commercial software development.
 
-The resulting system was modest in scale. It combined existing open-source tools, local AI models, documentation platforms, image archives, and collaborative environments into a working ecosystem. Some components proved useful immediately. Others remained experimental. Many suggested further directions for investigation.
+These observations remain limited. They come from one prototype, developed at a specific moment in the evolution of AI. The technologies will change, and the particular configuration of BlackBox should not be understood as a fixed model to reproduce.
 
-Perhaps the most significant outcome was not the software itself.
+The underlying problem, however, is unlikely to disappear.
 
-Throughout the project it became increasingly clear that the central challenge was not artificial intelligence. The challenge was understanding how knowledge is created, organised, shared, and maintained within a practice.
+Architectural practices will continue to generate drawings, reports, images, workflows, conversations, and ideas that represent years of accumulated experience. They will continue to face the difficulty of making that experience available to future projects and future colleagues.
 
-In this respect, AI functioned less as a solution and more as a catalyst. It provided a new perspective from which existing questions about organisational learning, communication, and continuity could be reconsidered.
+AI will not resolve the complexity of architectural practice, nor will it replace the judgement through which knowledge becomes meaningful. It may, however, provide new ways of connecting the fragments of knowledge that practices already produce and allowing them to remain active within future work.
 
-The project also demonstrated that architectural practices do not necessarily need to wait for commercial software providers to address every specialised problem. The combination of open-source tools, AI-assisted development, and domain-specific expertise creates new opportunities for experimentation at a relatively small scale.
+In that sense, organisational memory can become something more than an archive.
 
-This observation may ultimately prove more important than any individual technology discussed in these pages.
-
-Many of the specific tools used within BlackBox will undoubtedly change. Models will improve, interfaces will evolve, and new approaches will emerge. The technical details of the system are unlikely to remain fixed for very long.
-
-The underlying question, however, appears more durable.
-
-Architectural practices will continue to generate knowledge. They will continue to produce drawings, documents, images, workflows, and ideas that represent years of accumulated experience. The challenge of preserving and reactivating this knowledge is unlikely to disappear.
-
-BlackBox was one attempt to explore how AI might contribute to this process.
-
-It did not produce a definitive model for the future architectural office.
-
-It did, however, suggest that organisational memory can become something more than an archive.
-
-It can become a conversation.
+It can become part of an ongoing conversation.

@@ -2,94 +2,106 @@
 
 ## What worked, what proved difficult, and what changed along the way
 
-The purpose of BlackBox was never to validate a predefined theory about artificial intelligence. The project emerged through experimentation, and many of the more interesting observations only became apparent during development.
+BlackBox was not developed to confirm a predefined theory about artificial intelligence. It began as an open-ended investigation, and many of its more useful observations only became visible through the process of building, testing, and revising the system.
 
-Some confirmed initial expectations. Others challenged assumptions that seemed reasonable at the beginning of the project.
+Some findings confirmed the initial expectations. Others challenged assumptions that had seemed entirely reasonable at the outset. In several cases, the most important lesson was not related to the performance of an AI model at all, but to the conditions required for AI to become useful within a real working environment.
 
-The following observations emerged directly from the process of building and testing the system.
+The observations that follow are therefore practical. They concern open-source software, infrastructure, maintenance, human judgement, and the economics of bespoke tool development.
 
 ---
 
-## Open Source AI Is More Mature Than Expected
+## Open-Source AI Is More Mature Than Expected
 
-One of the most surprising discoveries was the maturity of the open-source ecosystem surrounding artificial intelligence.
+One of the earliest assumptions was that building an AI-assisted workspace would require a substantial budget, specialist developers, and dependence on commercial platforms. The reality proved more nuanced.
 
-At the beginning of the project, it would have been reasonable to assume that creating an AI-assisted workspace required a substantial budget and a dependence on commercial platforms. The reality was rather different.
+The core components of BlackBox—including Ollama, OpenWebUI, BookStack, PhotoPrism, Heimdall, and tldraw—were all available as open-source software and could be deployed on standard office hardware. Each addressed a different part of the problem, and together they provided much of the foundation required to construct a functioning prototype.
 
-The core components of BlackBox—including Ollama, OpenWebUI, BookStack, PhotoPrism, Heimdall, and tldraw—were all available as open-source software and could be deployed on standard hardware.
+This did not mean that deployment was effortless. Installation, configuration, integration, maintenance, and user management still required considerable time and technical attention. Open source reduced the cost of access, but it did not remove the work involved in assembling reliable systems.
 
-This did not mean that deployment was effortless. Installation, configuration, maintenance, and integration still required considerable work. Nevertheless, the quality and capability of the available tools exceeded expectations.
+Nevertheless, the quality and range of the available tools exceeded the initial expectations. The significance of this lies not only in cost. Open-source software also made it possible to inspect, adapt, combine, and replace individual components in ways that would have been difficult within a closed commercial platform.
 
-One of the outcomes of the project was a greater appreciation for the open-source communities that maintain these systems. BlackBox would not have been possible without them.
+For small architectural practices, this creates a new kind of opportunity. Rather than waiting for a single software provider to deliver a complete solution, practices can assemble environments around their own priorities. The result may be less polished than a commercial product, but it can respond more precisely to the specific forms of knowledge and workflow that already exist within the office.
+
+BlackBox depended heavily on the communities maintaining these systems. Their contribution was not peripheral to the project; it was one of the conditions that made the experiment possible.
 
 ---
 
 ## The Real Challenge Was Not AI
 
-At the beginning of the project, most attention was focused on AI models themselves.
+At the beginning of the project, most attention was directed towards the models themselves. Questions concerning output quality, prompting, local execution, and the relative value of open and commercial systems appeared likely to determine whether BlackBox would succeed.
 
-Questions about model quality, prompting techniques, and local versus cloud-based systems appeared central to the success of the project.
+As development progressed, a different picture emerged.
 
-Over time, a different picture emerged.
+The most demanding problems were often found in the surrounding infrastructure. Authentication, user management, software integration, data structures, permissions, maintenance, and workflow design frequently required more effort than the AI components they were intended to support.
 
-The most difficult challenges were often unrelated to AI. Authentication, user management, software integration, data structures, maintenance, and workflow design frequently required more effort than the AI components themselves.
+This distinction is easy to overlook because the model is the most visible part of the system. It produces the response, generates the description, or returns the search result. Yet that visible interaction depends on a much larger technical environment operating correctly behind it.
 
-The experience suggested that AI is often the most visible part of a system, but not necessarily the most complex.
+A useful AI system therefore cannot be evaluated only through the quality of its outputs. It must also be judged by whether people can access it reliably, whether data remains organised, whether permissions are appropriate, whether integrations can be maintained, and whether the workflow fits the conditions of everyday practice.
 
-Creating a reliable environment in which AI can operate effectively remains a significant design challenge in its own right.
+The development of BlackBox suggested that the integration of AI is as much an organisational and infrastructural challenge as a computational one. The model may provide the intelligence, but the wider system determines whether that intelligence can be used.
+
+---
+
+## Maintenance Became a Design Problem
+
+A related concern emerged around continuity. If a bespoke system depends entirely on the person who created it, then it cannot be considered a reliable office tool. The question was therefore not only whether BlackBox could be built, but whether it could remain understandable if the original author was no longer available.
+
+This became one of the more revealing aspects of the experiment. BlackBox began to document itself.
+
+Two different forms of documentation were developed in parallel. The first was a technical handbook written for future maintainers. It described the structure of the system, the role of individual components, the logic of the integrations, and the steps required to maintain or extend the prototype. In effect, this became a machine-to-machine document: a manual that could be read not only by another colleague, but also by another agentic coding system asked to continue development in the future.
+
+The second was a user handbook for employees. As features were developed, AI was used to generate explanations, workflows, and guidance that could be published in BookStack. This allowed staff to understand what the system could do, how to access its tools, and how the different parts of the environment related to one another.
+
+The result was a form of self-documentation. BlackBox did not simply produce an AI-assisted workspace; it also produced part of the knowledge required to use and maintain that workspace. This was important because agentic development can easily create systems that are fast to build but difficult to inherit. Documentation became the mechanism through which the prototype could become more resilient.
+
+If office knowledge remains only in the mind of one person, it is fragile. By writing its technical and user documentation into BookStack, BlackBox turned part of its own development process into shared knowledge that could outlast the initial act of authorship.
 
 ---
 
 ## Human Judgement Remains Central
 
-Several parts of BlackBox relied on AI-generated descriptions, labels, classifications, and search results.
+Several components of BlackBox relied on AI-generated descriptions, labels, classifications, and search results. These processes demonstrated the value of automation, particularly where large quantities of information had to be analysed or indexed.
 
-Yet throughout the project it became clear that human judgement remained essential.
+At the same time, the experiments repeatedly confirmed that human judgement remained essential.
 
-Architects decided which images were worth collecting. They defined keywords, selected references, evaluated results, and determined whether a particular response was useful or irrelevant.
+Architects decided which images were worth collecting, which references were relevant, how keywords should be defined, whether a generated description was useful, and whether a search result supported the design question being asked. AI could increase the scale and speed of interpretation, but it could not determine the priorities of the practice using it.
 
-The relationship that emerged was therefore not one of replacement but of collaboration.
+The relationship that emerged was therefore not one of replacement. It was a division of responsibility.
 
-In many cases, AI performed tasks that benefited from scale: analysing images, generating descriptions, searching archives, or processing information. Human users provided context, priorities, and judgement.
+AI performed tasks that benefited from scale: analysing images, generating descriptions, searching archives, and processing information across large collections. Human users supplied context, intention, critical judgement, and the ability to recognise when an apparently plausible result was inappropriate.
 
-One of the more interesting design decisions within BlackBox reflected this relationship directly. Human-controlled keywords coexisted with AI-generated labels. The two systems served different purposes and complemented one another rather than competing.
+The coexistence of human-controlled keywords and AI-generated labels within PhotoPrism made this relationship visible. Human keywords provided a stable and deliberate taxonomy. AI-generated labels introduced additional interpretations and associations that would have been difficult to produce manually at scale.
 
----
+Neither system was sufficient on its own. Human classification offered consistency but was labour-intensive and necessarily selective. Automated interpretation offered breadth but remained variable and dependent on evaluation. Their combination produced a richer archive than either approach could have achieved independently.
 
-## Small Problems Become Interesting Again
-
-Architectural offices contain many small problems that rarely attract commercial software development.
-
-How can previous competition narratives be searched?
-
-How should successful AI prompts be shared between colleagues?
-
-How can a large image archive remain useful over time?
-
-How can internal documentation become easier to access?
-
-Individually, these questions are often too specific to justify dedicated software development. As a result, they are frequently solved through improvised workflows or not addressed at all.
-
-AI-assisted development changes this equation.
-
-Throughout the project it became possible to investigate highly specific problems that would previously have required a dedicated software team. The combination of conversational planning, AI-assisted coding, and iterative testing significantly lowered the threshold for experimentation.
-
-This observation may ultimately prove more important than any particular software component used within BlackBox.
+This suggests a more useful way of framing AI in architectural practice. Its value may lie less in autonomous decision-making than in extending the capacity of practitioners to organise, interpret, and retrieve material while leaving responsibility for meaning and relevance with the human user.
 
 ---
 
-## The Questions Became More Interesting Than the Answers
+## Small Problems Become Worth Investigating
 
-Perhaps the most unexpected observation emerged towards the end of the project.
+Architectural practices contain many recurring problems that are too specific to attract commercial software development.
 
-Each successful experiment tended to generate additional questions.
+How can previous competition narratives be searched? How should successful AI prompts be shared between colleagues? How can a large image archive remain useful over time? How can internal documentation become easier to access?
 
-The integration of image archives led to questions about embeddings and semantic similarity. Documentation systems suggested new approaches to knowledge retrieval. Collaborative environments raised questions about AI-assisted ideation and design support.
+Individually, these questions may appear minor. They rarely justify the cost of commissioning a dedicated software system, yet collectively they consume time, reduce continuity, and contribute to the gradual loss of practice knowledge.
 
-As the system grew, it became increasingly clear that BlackBox was not moving towards a single final product.
+In most offices, they are addressed through improvised workflows: folders, spreadsheets, naming conventions, shared drives, or the memory of a particular colleague. These solutions may work temporarily, but they are difficult to scale and often depend on individual habits rather than shared systems.
 
-Instead, it was becoming a framework through which different aspects of AI-assisted architectural practice could be explored.
+AI-assisted development changes the threshold at which such problems become worth investigating.
 
-This observation would later influence how the project itself was understood. BlackBox was less a completed system than a collection of connected investigations, each opening further areas of inquiry.
+Throughout BlackBox, conversational planning, agentic coding, and iterative testing made it possible to explore highly specific workflows without a conventional software team. The objective was not to create a polished commercial product for each problem. It was to test whether a useful internal tool could be produced with a level of effort proportionate to the issue it addressed.
 
-The value of the project therefore resided not only in the prototype that was produced, but also in the questions that emerged through the process of building it.
+This shifts the economics of bespoke software. A problem no longer needs to affect thousands of users before it becomes viable to develop a response. A small office can investigate a narrow requirement because the cost of prototyping has fallen substantially.
+
+The consequence may be a more diverse software landscape in which practices build tools around their own methods rather than adapting every workflow to the assumptions embedded within generic applications.
+
+This observation may prove more consequential than any individual component of BlackBox. The project demonstrated not only that bespoke tools could be built, but that problems previously considered too small for software development could become legitimate subjects of experimentation.
+
+---
+
+## From Observations to Lessons
+
+Taken together, these observations changed the emphasis of the project. The decisive questions were no longer whether a model could produce an acceptable response or whether an integration could be made to work. They concerned what happened once AI entered the wider conditions of practice: who maintained the system, how knowledge remained transferable, where human judgement was still required, and which problems became newly feasible to address.
+
+The following chapter draws out the broader lessons from these practical findings. It considers what BlackBox suggests about organisational memory, contextual AI, and the ability of architectural practices to shape their own digital tools.

@@ -2,11 +2,11 @@
 
 ## Developing an AI workspace through experimentation, iteration, and agentic workflows
 
-The development of BlackBox took place over approximately four months between February and May 2026.
+BlackBox was developed over approximately four months between February and May 2026. There was no dedicated software team, detailed specification, or fixed roadmap. The project began as a series of technical experiments and gradually developed into a working system as new possibilities became visible.
 
-Unlike a conventional software project, there was no dedicated development team, detailed specification, or predefined roadmap. The project emerged through a series of experiments that gradually evolved into a working system. New ideas appeared as technologies were tested, and the direction of the project changed several times as new opportunities emerged.
+This mode of development was exploratory by necessity. Rather than defining a final product in advance, the work focused on identifying where AI could provide practical value within an architectural environment. Each successful experiment created the conditions for another question, and the scope of the project expanded through use rather than through formal planning.
 
-Rather than beginning with a fixed vision of the final product, the process focused on understanding what was possible and identifying where AI could provide practical value within an architectural environment.
+The process therefore became as important as the prototype itself. BlackBox was not only an investigation into AI-assisted organisational memory; it was also a test of whether an architect, working without a conventional software team, could develop a bespoke digital environment through AI-assisted planning and coding.
 
 ---
 
@@ -18,52 +18,48 @@ Rather than beginning with a fixed vision of the final product, the process focu
 
 ## Building Without a Software Team
 
-The first stage focused on establishing a local AI environment.
+The first stage focused on establishing a local AI environment. Ollama was installed on an available workstation, allowing different open-source Large Language Models to be downloaded and tested. OpenWebUI followed shortly afterwards and provided a practical interface through which these models could be evaluated in everyday use.
 
-Ollama was installed on an available workstation, allowing different open-source Large Language Models to be downloaded and tested locally. OpenWebUI followed shortly afterwards and became the primary interface through which these models could be evaluated through everyday use.
+At this point, the broader structure of BlackBox did not yet exist. The initial objective was simply to understand the capabilities and limitations of local AI systems. Questions concerning image archives, documentation, semantic search, and collaborative ideation emerged later, as the consequences of the first experiments became clearer.
 
-At this stage the objective was simply to explore the capabilities of local AI systems. The broader vision of BlackBox had not yet emerged. Questions about image archives, documentation systems, semantic search, and collaborative ideation only appeared later as the possibilities of the technology became clearer.
-
-The development process therefore moved in small steps. Each successful experiment suggested a new direction of investigation.
-
-Questions gradually accumulated:
+Development proceeded through a sequence of small steps. Each working component suggested another possible application:
 
 - Could visual references be organised through AI?
 - Could office documentation become accessible through conversation?
 - Could different applications be connected into a unified environment?
 - Could AI assist not only with retrieval, but also with curation?
 
-Over time, these individual experiments began to form a coherent system.
+These questions were not resolved through a single design decision. They accumulated gradually, and the relationship between them only became apparent as the prototype developed. What began as a local language-model test eventually became a wider software ecosystem.
+
+This incremental process resembled architectural design more closely than conventional software procurement. The system was not specified in full and then implemented. It was tested, observed, adjusted, and extended as new requirements emerged.
 
 ---
 
 ## ChatGPT and Planning
 
-One of the more unexpected aspects of the project was that AI became involved long before any software was written.
+One of the more consequential aspects of the project was that AI became involved before any software was written.
 
-ChatGPT was used extensively as a discussion partner throughout the development process. Ideas were explored through conversation, alternative technologies were compared, and implementation strategies were developed before coding began.
+ChatGPT was used extensively as a planning and discussion partner. Architectural objectives were translated into technical requirements, alternative technologies were compared, and implementation strategies were developed through conversation. Questions that initially appeared vague could be broken into smaller and more testable tasks before development began.
 
-Many development tasks were broken down into a sequence of smaller steps. Architectural objectives were translated into technical requirements, possible approaches were evaluated, and implementation plans were refined through discussion.
+This was particularly important because many of the technical subjects were unfamiliar. Building BlackBox required engagement with databases, APIs, authentication, containers, local model hosting, and software integration. AI-assisted dialogue reduced the threshold for entering these areas by allowing technical research and project planning to happen together.
 
-This proved particularly valuable because many of the questions being explored were unfamiliar. Rather than spending weeks researching every technical topic independently, it became possible to learn through dialogue while simultaneously moving the project forward.
+The process did not remove the need for judgement. Suggestions still had to be evaluated, assumptions checked, and technical directions selected. Its value lay in accelerating the movement from an architectural intention to a workable technical plan.
 
-In retrospect, a significant proportion of the project consisted not of coding, but of planning, questioning, and refining ideas through conversation.
+In retrospect, a substantial proportion of the project consisted not of coding, but of defining problems clearly enough for coding to become possible. The quality of the implementation often depended on the quality of the conversation that preceded it.
 
 ---
 
 ## Codex and Implementation
 
-Once a strategy had been established, implementation increasingly shifted towards Codex.
+Once an implementation strategy had been established, development increasingly shifted towards Codex.
 
-Rather than writing large quantities of code manually, development tasks were divided into small and manageable steps. Individual features were implemented one at a time, tested, reviewed, and only then incorporated into the wider system.
+Rather than attempting to generate large quantities of software in a single step, the work was divided into small, manageable tasks. Individual features were implemented, tested, reviewed, and only then incorporated into the wider system. This became increasingly important as BlackBox began to combine multiple applications, databases, APIs, authentication systems, and AI services.
 
-This incremental approach became essential as the complexity of BlackBox increased. The project combined multiple applications, databases, APIs, authentication systems, and AI services. Attempting to implement large changes in a single step often produced unreliable results.
+Large changes often produced unreliable results. They could introduce unexpected behaviour, solve the wrong problem, or make it difficult to identify where an error had occurred. Development therefore proceeded through micro-iterations: define a task, generate an implementation, test the result, review its consequences, and either retain or revise it before continuing.
 
-Development therefore proceeded through a sequence of micro-iterations.
+This workflow altered the relationship between architectural practice and software development. Complex integrations that would previously have required specialist programming knowledge became achievable through a combination of clear problem definition, AI-assisted implementation, and careful testing.
 
-A feature would first be discussed and planned. The implementation would then be generated through Codex. The result would be tested, reviewed, and either accepted or revised before the next stage began.
-
-The process was surprisingly effective. Complex integrations that would previously have required significant programming knowledge became achievable through a combination of clear problem definition, careful planning, and iterative testing.
+The significance of this shift extends beyond BlackBox. Small architectural practices often identify the need for highly specific digital tools but lack the resources to commission custom software. Agentic coding lowers that threshold. It does not eliminate technical complexity, but it allows practitioners to engage with software development directly enough to test ideas that might otherwise remain unrealised.
 
 ---
 
@@ -75,17 +71,15 @@ The process was surprisingly effective. Complex integrations that would previous
 
 ## Git, Testing, and Rollback
 
-Version control became an essential part of the workflow.
+The speed of AI-assisted implementation made version control essential.
 
-Git was used to record development milestones and provide the ability to revert changes whenever experiments failed. Although AI-assisted coding accelerated development considerably, it did not eliminate mistakes. Some implementations worked immediately, while others introduced unexpected behaviour or solved the wrong problem entirely.
+Git was used to record development milestones and to provide a reliable path back whenever an experiment failed. AI-assisted coding accelerated the production of new features, but it did not eliminate mistakes. Some implementations worked immediately; others introduced unintended behaviour, created dependencies that were difficult to maintain, or addressed the wrong interpretation of the problem.
 
-Several development branches had to be abandoned and rolled back after testing revealed unintended consequences.
+Several branches of development were abandoned after testing revealed consequences that were not visible during implementation. In these cases, rollback was not a sign of failure but part of the research process. Returning to a known working state made it possible to test alternatives without destabilising the wider system.
 
-The ability to return to a known working state provided the confidence to continue experimenting without risking the stability of the wider system.
+Git and agentic development therefore proved highly complementary. AI increased the speed and range of experimentation, while version control created the discipline required to manage that experimentation safely. Together they supported a workflow in which uncertainty could be explored without losing control of the project.
 
-In practice, Git and AI-assisted development proved highly complementary. AI increased the speed of implementation, while version control provided the safety net required to manage uncertainty.
-
-The result was a workflow that encouraged experimentation while maintaining a reliable path back to a stable configuration.
+This balance is particularly important for small practices. Faster implementation is only useful if the resulting system remains understandable, reversible, and maintainable. Agentic coding creates new possibilities, but those possibilities still require a robust development method.
 
 ---
 
@@ -97,30 +91,37 @@ The result was a workflow that encouraged experimentation while maintaining a re
 
 ## Unexpected Challenges
 
-Not all challenges were related to AI.
+Not all of the difficult work concerned artificial intelligence.
 
-As the number of applications increased, a consistent approach to user management became necessary. Different systems required authentication, permissions, and user separation. What initially appeared to be a straightforward administrative task gradually became one of the more technically demanding aspects of the project.
+As the number of applications increased, a consistent approach to user management became necessary. Each system had its own requirements for authentication, permissions, and user separation. What initially appeared to be an administrative detail gradually became one of the more technically demanding parts of the project.
 
-Zitadel was introduced as an identity and access management system intended to provide single sign-on and centralised user management across the environment.
+Zitadel was introduced as an identity and access-management system intended to provide single sign-on and centralised user administration across the BlackBox environment. The principle was straightforward, but implementation across several open-source applications proved considerably more complex than expected. A significant amount of development time was spent configuring, testing, and debugging authentication workflows.
 
-While conceptually simple, integrating authentication across multiple open-source applications proved considerably more complex than expected. A significant amount of development time was spent configuring, testing, and debugging user-management workflows.
+This infrastructure remained largely invisible to the user, yet it was essential to the credibility of the prototype. Without dependable authentication and user separation, BlackBox could not function as a shared office environment.
 
-Although largely invisible to end users, this infrastructure became essential. Without reliable authentication and user separation, the system could not realistically function as a shared office environment.
+The experience exposed an important distinction between a technical demonstration and an operational tool. Creating an isolated AI workflow may be relatively straightforward. Integrating that workflow into a secure, maintainable, multi-user environment requires a different level of effort.
 
-The experience highlighted an important lesson: building useful AI workflows is often easier than integrating them into a robust and maintainable system.
+This also revealed a limitation of agentic coding. AI can help produce integrations quickly, but the surrounding responsibilities of deployment, access control, testing, maintenance, and support do not disappear. For small businesses, the opportunity to build bespoke software is therefore accompanied by a need to understand the infrastructure on which that software depends.
+
+
+---
+![FIGURE 12 — Zitadel](assets/screenshots/Zitadel.png)
+
+*User management in Zitadel*
 
 ---
 
+
 ## Development as Research
 
-One of the most interesting outcomes of BlackBox was that the development process itself became a form of research.
+The development process became a form of research in its own right.
 
-Many of the project's most useful observations emerged through implementation rather than theoretical discussion. Questions about model quality, software integration, maintenance requirements, usability, and long-term viability only became apparent once the system was operating.
+Many of the project's more useful observations emerged through implementation rather than theoretical discussion. Questions concerning model quality, software interoperability, authentication, maintenance, usability, and long-term viability only became visible once the system was operating.
 
-The project therefore produced two forms of knowledge simultaneously. On one level it generated a working prototype. On another, it revealed practical insights into the opportunities and limitations of building AI-assisted tools within an architectural environment.
+BlackBox therefore generated two forms of knowledge simultaneously. On one level, it produced a working prototype. On another, it revealed the practical conditions under which AI-assisted tools might be developed and sustained within an architectural practice.
 
-In this sense, the prototype was not simply the outcome of the investigation. It was also the method through which the investigation was conducted.
+The prototype was consequently not only the outcome of the investigation; it was also the method through which the investigation was conducted. Building, testing, revising, and occasionally abandoning parts of the system created the evidence from which the later observations and conclusions emerged.
 
-Several of the conclusions discussed in the following chapters emerged directly from the experience of building, testing, revising, and occasionally abandoning parts of the system.
+This distinction matters because the third proposition of BlackBox concerns more than the availability of coding tools. Agentic development may allow small practices to create bespoke software, but the process remains iterative, uncertain, and dependent on critical judgement. The accessibility of implementation does not remove the need for research; it changes who is able to conduct it.
 
-The process reinforced a simple observation: some questions can only be answered by making something and seeing what happens.
+Several conclusions discussed in the following chapters emerged directly from this process. Some questions could only be answered by making the system, placing it in use, and observing where the initial assumptions held or failed.
