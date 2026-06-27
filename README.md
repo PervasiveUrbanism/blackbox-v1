@@ -18,9 +18,12 @@ The publication documents the motivations behind the project, the technical prot
 
 The complete publication is available online:
 
-###  [How Do We Preserve What We Learn?](https://pervasiveurbanism.github.io/blackbox-v1/publication/00-overview.html)
+[**How Do We Preserve What We Learn?**](https://pervasiveurbanism.github.io/blackbox-v1/publication/00-overview.html)
 
 
+
+
+---
 
 ## Topics
 
@@ -60,4 +63,4 @@ The experiences described in these chapters are real. The project existed, the s
 
 In that respect, the publication became a small extension of the BlackBox project itself: an exploration of how human judgement and artificial intelligence might work together to produce something neither would have created alone.
 
-![FIGURE 00 — Brainslug](assets/diagrams/Brainslug.png)
+![FIGURE 00 — Brainslug](Brainslug.png)
