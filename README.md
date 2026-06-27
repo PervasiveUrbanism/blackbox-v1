@@ -2,7 +2,7 @@
 
 ## AI, Organisational Memory and Architectural Practice
 
-BlackBox V1 is a case study exploring how artificial intelligence can support the knowledge, culture, and everyday workflows of an architectural practice.
+**BlackBox V1** is a case study exploring how artificial intelligence can support the knowledge, culture, and everyday workflows of an architectural practice.
 
 Developed between February and May 2026, the project investigated the relationship between general-purpose AI models and the specific knowledge accumulated within a design office. Rather than focusing on AI as a tool for generating new content, BlackBox explored how AI might help architects engage with the knowledge that already exists within a practice: previous projects, visual references, technical solutions, internal workflows, and emerging forms of digital expertise.
 
@@ -23,7 +23,6 @@ The complete publication is available online:
 
 
 
----
 
 ## Topics
 

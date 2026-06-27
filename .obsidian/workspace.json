@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b58e68e5995e9354",
+        "id": "1988681a5ed85dfb",
         "type": "tabs",
         "children": [
           {
-            "id": "ab059deaad627c4e",
+            "id": "6a4b07e5a3076c1b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -183,8 +179,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "ab059deaad627c4e",
+  "active": "6a4b07e5a3076c1b",
   "lastOpenFiles": [
+    "publication/04-building-blackbox.md",
+    "publication/05-observations.md",
+    "publication/06-key-findings.md",
+    "publication/08-conclusion.md",
+    "publication/07-reflection.md",
+    "publication/00-overview.md",
+    "publication/01-introduction.md",
+    "publication/03-the-blackbox-experiment.md",
+    "publication/02-ai-in-architectural-practice.md",
+    "README.md",
     "site/search/search_index.json",
     "site/publication/08-conclusion.md",
     "site/publication/07-reflection.md",
@@ -205,7 +211,6 @@
     "site/publication/02-ai-in-architectural-practice.html",
     "site/publication/01-introduction.html",
     "site/publication/00-overview.html",
-    "site/index.html",
     "site/icons/sun.svg",
     "site/icons/shadcn.svg",
     "site/icons/moon.svg",
@@ -216,16 +221,6 @@
     "site/publication/assets/screenshots/PP_AI_Details.png",
     "site/publication/assets/screenshots/Codex.png",
     "site/publication/assets/screenshots/BS_Screen.png",
-    "publication/00-overview.md",
-    "README.md",
-    "publication/07-reflection.md",
-    "publication/08-conclusion.md",
-    "publication/06-key-findings.md",
-    "publication/05-observations.md",
-    "publication/04-building-blackbox.md",
-    "publication/03-the-blackbox-experiment.md",
-    "publication/02-ai-in-architectural-practice.md",
-    "publication/01-introduction.md",
     "publication/02-ai-in-architectural-practice - Copy.md",
     "publication/01-introduction - Copy.md"
   ]
