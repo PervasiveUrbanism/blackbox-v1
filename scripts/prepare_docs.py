@@ -26,6 +26,16 @@ for directory in ("publication", "stylesheets"):
 # included in the published artifact.
 shutil.copy2(ROOT / "README.md", STAGING / "index.md")
 
+# Copy local images referenced by the README beside the generated landing page.
+readme_image_pattern = re.compile(r"!\[[^\]]*\]\((?!https?://)([^)]+)\)")
+readme = (ROOT / "README.md").read_text(encoding="utf-8")
+for relative_path in readme_image_pattern.findall(readme):
+    source = ROOT / relative_path
+    if source.is_file():
+        destination = STAGING / relative_path
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, destination)
+
 # Copy only images referenced by publication Markdown. Mirror them beside the
 # publication pages so their existing paths work without source-file edits.
 image_pattern = re.compile(r"!\[[^\]]*\]\((assets/[^)]+)\)")
