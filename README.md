@@ -18,7 +18,7 @@ The publication documents the motivations behind the project, the technical prot
 
 The complete publication is available online:
 
-[**How Do We Preserve What We Learn?**](https://pervasiveurbanism.github.io/blackbox-v1/publication/00-overview.html)
+[**How Do We Preserve What We Learn?**](https://pervasiveurbanism.github.io/blackbox-v1/publication/00-overview.html)          
 
 
 
