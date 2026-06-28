@@ -14,6 +14,8 @@ Architecture depends on this process of continuity. Every new project builds on 
 
 Within an architectural practice, this accumulated knowledge takes many forms. It exists in competition narratives, design presentations, technical solutions, material research, consultant relationships, graphic approaches, commercial strategies, prompts, workflows, and the small decisions made throughout the life of a project.
 
+Some of this knowledge is explicit and can be written down. Much of it, however, is learned indirectly through participation. Young architects learn by sitting in reviews, watching drawings being marked up, observing how a senior colleague frames a design decision, and gradually absorbing the standards, habits, and judgement of a practice through doing the work. This form of learning is central to architectural culture, but it is also fragile because it often leaves only partial traces.
+
 Over time, individual projects begin to form a *collective memory*. Yet the existence of an archive does not necessarily mean that knowledge remains accessible. Documents may remain buried within project folders, images may be stored in fragmented libraries, and valuable experience may continue to exist primarily in the memories of the people who participated in the work.
 
 The challenge is therefore not simply to preserve information. It is to allow previous knowledge to remain active and useful. How can the experience of past projects inform a new competition, support a technical decision, guide a colleague, or contribute to a future design discussion?
@@ -39,6 +41,8 @@ The question therefore becomes how a general AI model can become useful within s
 *Rather than attempting to create an AI model that imitates the identity of a practice, it may be more productive to provide a general model with access to the context developed by that organisation.* Previous project documents, visual archives, office standards, prompts, and digital workflows can become the material through which AI responses become more relevant to a particular way of working.
 
 This idea can be illustrated through simple examples. A successful competition narrative from a previous project may provide a useful structure for a new submission. A carefully developed AI prompt may represent many hours of experimentation by a colleague and become valuable knowledge for the wider team. A technical solution developed for one building may suggest approaches to another. A visual reference collected for an earlier project may become relevant again when it can be rediscovered through a conceptual search rather than a folder name.
+
+The same principle applies to less formal forms of knowledge. A junior architect may not only need a standard detail or a precedent image, but also access to the reasoning that shaped earlier decisions. If the traces of past discussions, reviews, prompts, mark-ups, and project narratives become easier to retrieve, they can support learning in a way that resembles the informal transmission of knowledge within the studio.
 
 This was the question that led to the development of **BlackBox**.
 
