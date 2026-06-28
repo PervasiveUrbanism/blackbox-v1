@@ -14,7 +14,7 @@ Architecture depends on this process of continuity. Every new project builds on 
 
 Within an architectural practice, this accumulated knowledge takes many forms. It exists in competition narratives, design presentations, technical solutions, material research, consultant relationships, graphic approaches, commercial strategies, prompts, workflows, and the small decisions made throughout the life of a project.
 
-Some of this knowledge is explicit and can be written down. Much of it, however, is learned indirectly through participation. Young architects learn by sitting in reviews, watching drawings being marked up, observing how a senior colleague frames a design decision, and gradually absorbing the standards, habits, and judgement of a practice through doing the work. This form of learning is central to architectural culture, but it is also fragile because it often leaves only partial traces.
+Some of this knowledge is explicit and can be written down. Much of it, however, is learned implicitly through exposure to examples. Architects develop judgement by encountering precedents, participating in reviews, comparing solutions, and observing how similar situations have been handled before. Learning emerges not only from instruction, but from repeated contact with the accumulated work of a practice.
 
 Over time, individual projects begin to form a *collective memory*. Yet the existence of an archive does not necessarily mean that knowledge remains accessible. Documents may remain buried within project folders, images may be stored in fragmented libraries, and valuable experience may continue to exist primarily in the memories of the people who participated in the work.
 
@@ -42,7 +42,7 @@ The question therefore becomes how a general AI model can become useful within s
 
 This idea can be illustrated through simple examples. A successful competition narrative from a previous project may provide a useful structure for a new submission. A carefully developed AI prompt may represent many hours of experimentation by a colleague and become valuable knowledge for the wider team. A technical solution developed for one building may suggest approaches to another. A visual reference collected for an earlier project may become relevant again when it can be rediscovered through a conceptual search rather than a folder name.
 
-The same principle applies to less formal forms of knowledge. A junior architect may not only need a standard detail or a precedent image, but also access to the reasoning that shaped earlier decisions. If the traces of past discussions, reviews, prompts, mark-ups, and project narratives become easier to retrieve, they can support learning in a way that resembles the informal transmission of knowledge within the studio.
+The archive is therefore not only a smart storage facility. Its greater potential lies in allowing both architects and AI systems to reason from examples. When an AI has access to previous projects, narratives, details, prompts, visual references, and decisions, those examples become part of the context from which it constructs a response. The system is not retrained in the technical sense, but it begins to operate within the accumulated experience of the practice.
 
 This was the question that led to the development of **BlackBox**.
 
