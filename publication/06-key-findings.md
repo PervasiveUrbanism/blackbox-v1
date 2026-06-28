@@ -50,6 +50,10 @@ One assumption challenged by the project was that organisational knowledge prima
 
 In reality, architectural knowledge appears in many different forms. Some of it is explicit and textual: standards, guides, reports, technical notes, or onboarding documents. Some is visual: precedents, material references, competition images, screenshots, drawings, and photographs. Some exists as workflows, prompts, templates, naming conventions, informal habits, or repeated patterns of decision-making.
 
+Some of the most important knowledge is also implicit. It is learned through participation rather than instruction: by sitting in reviews, watching how a senior architect marks up a drawing, listening to how a design decision is explained to a client, or observing how a team responds when a project changes direction. Young architects often learn less from formal manuals than from doing the work alongside more experienced colleagues.
+
+This kind of learning is difficult to capture because it is not always recognised as knowledge at the moment it is produced. It appears in comments, precedents, recurring solutions, annotated drawings, presentation structures, and the small decisions that accumulate around a project. BlackBox could not fully preserve this tacit dimension, but it made the problem more visible. If AI-assisted systems can help retrieve the traces of previous decisions, they may also support a richer form of learning by making past practice more available to those still developing their judgement.
+
 This diversity helps explain why no single software platform was sufficient.
 
 Documents, images, conversations, and collaborative environments each required different forms of organisation and retrieval. BookStack could structure written knowledge. PhotoPrism could support visual references and AI-assisted metadata. OpenWebUI could provide conversational access. tldraw suggested a possible visual workspace for assembling and developing ideas.
