@@ -16,7 +16,7 @@ Within an architectural practice, this accumulated knowledge takes many forms. I
 
 Some of this knowledge is explicit and can be written down. Much of it, however, is learned implicitly through exposure to examples. Architects develop judgement by encountering precedents, participating in reviews, comparing solutions, and observing how similar situations have been handled before. Learning emerges not only from instruction, but from repeated contact with the accumulated work of a practice.
 
-Over time, individual projects begin to form a *collective memory*. Yet the existence of an archive does not necessarily mean that knowledge remains accessible. Documents may remain buried within project folders, images may be stored in fragmented libraries, and valuable experience may continue to exist primarily in the memories of the people who participated in the work.
+Over time, individual projects begin to form a *collective memory*. Yet an archive alone does not guarantee that this memory remains active. Knowledge can be present without being available: too dispersed, too dependent on individual experience, or too detached from the questions being asked in the present.
 
 The challenge is therefore not simply to preserve information. It is to allow previous knowledge to remain active and useful. How can the experience of past projects inform a new competition, support a technical decision, guide a colleague, or contribute to a future design discussion?
 
@@ -40,7 +40,7 @@ The question therefore becomes how a general AI model can become useful within s
 
 *Rather than attempting to create an AI model that imitates the identity of a practice, it may be more productive to provide a general model with access to the context developed by that organisation.* Previous project documents, visual archives, office standards, prompts, and digital workflows can become the material through which AI responses become more relevant to a particular way of working.
 
-This idea can be illustrated through simple examples. A successful competition narrative from a previous project may provide a useful structure for a new submission. A carefully developed AI prompt may represent many hours of experimentation by a colleague and become valuable knowledge for the wider team. A technical solution developed for one building may suggest approaches to another. A visual reference collected for an earlier project may become relevant again when it can be rediscovered through a conceptual search rather than a folder name.
+This idea can be illustrated through simple examples. A successful competition narrative may provide a structure for a new submission. A carefully developed AI prompt may represent many hours of experimentation by a colleague. A technical solution from one building may suggest an approach to another. A visual reference may become relevant again when it can be rediscovered through a conceptual search rather than a folder name.
 
 The archive is therefore not only a smart storage facility. Its greater potential lies in allowing both architects and AI systems to reason from examples. When an AI has access to previous projects, narratives, details, prompts, visual references, and decisions, those examples become part of the context from which it constructs a response. The system is not retrained in the technical sense, but it begins to operate within the accumulated experience of the practice.
 
