@@ -100,9 +100,11 @@ The analysis produced two outputs:
 
 These AI-generated fields existed alongside manually assigned keywords. The two systems served different purposes.
 
-Human keywords remained under deliberate control and represented a stable office taxonomy. They reflected decisions about how projects, references, materials, and themes should be categorised. AI-generated descriptions and labels were more fluid, introducing interpretations, associations, and observations that would have been difficult to maintain manually across thousands of images.
+Human keywords offered a perspective that sat outside the model. They allowed architects to mark exceptions, specific project conditions, internal references, client associations, or categories that the AI would not necessarily recognise from the image itself. Because keywords were added by different people, they were not always consistent, but that was also part of their value: they captured situated human judgement rather than only model-derived interpretation.
 
-The intention was not to replace one form of classification with the other. Human judgement provided structure and consistency; AI provided scale and interpretive breadth. Their combination became one of the more consequential design decisions within BlackBox.
+AI-generated descriptions and labels served a different role. They introduced scale, speed, and a broad interpretive layer that would have been difficult to maintain manually across thousands of images. They could identify recurring visual or spatial qualities, but they also remained limited by the assumptions of the model and the prompt that guided it.
+
+The intention was not to replace one form of classification with the other. Human keywords allowed specific, exceptional, and practice-based readings to enter the archive; AI-generated metadata provided a broader descriptive layer across the collection. Their combination became one of the more consequential design decisions within BlackBox.
 
 ---
 
