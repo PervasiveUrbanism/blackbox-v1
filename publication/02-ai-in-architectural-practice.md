@@ -1,31 +1,35 @@
 # AI in Architectural Practice
 
-## The emergence of new forms of knowledge in everyday architectural work
+## From individual experimentation to shared practice knowledge
 
-By the time BlackBox was developed in early 2026, artificial intelligence had already become part of the everyday conversation within architecture. Its most visible impact was in image generation. Architects were using AI tools to create atmospheric visualisations, explore material qualities, test visual directions, and communicate early design ideas with a speed that had not previously been possible.
+By the time BlackBox was developed in early 2026, artificial intelligence had already entered the everyday conversation within architecture. Its most visible impact was in image generation. Architects were using AI tools to create atmospheric visualisations, explore material qualities, test visual directions, and communicate early design ideas with a speed that had not previously been possible.
 
-At the same time, Large Language Models were entering practice through less visible but equally important tasks. They were used to draft project descriptions, review texts, structure presentations, research unfamiliar subjects, prepare early project strategies, and clarify technical questions. These uses were often modest, but they touched many parts of daily architectural work.
+Large Language Models were also entering practice through less visible but equally important tasks. They were used to draft project descriptions, structure presentations, research unfamiliar subjects, prepare early strategies, clarify technical questions, write emails, summarise information, and support small coding tasks. These uses were often modest, but they touched many parts of daily architectural work.
 
 What characterised this period was the informality of adoption. In many offices, there was no single strategy, methodology, or shared framework for using AI. Individual architects experimented with different tools, developed personal workflows, and gradually learned how to obtain useful results through trial and error.
 
-This created a new form of professional knowledge.
+This informality was productive. It allowed people to test tools quickly and discover uses that would not have emerged through a formal software rollout. At the same time, it created a new organisational problem. The knowledge produced through these experiments often remained personal, fragmented, and difficult to repeat.
 
-A designer who became skilled at writing prompts for image generation was not simply typing instructions into a model. Through repeated testing, they developed an understanding of how a particular system interpreted language, which descriptions produced useful results, how references could be combined, and how small changes in wording affected the output.
+A useful AI workflow is rarely the result of a single prompt. It is usually developed through a sequence of attempts: adjusting the brief, changing the tone, adding context, removing ambiguity, comparing outputs, and deciding which version is appropriate. By the end of the process, the user has not only produced an output. They have developed a practical understanding of how to work with the system.
 
-Over time, these prompts became records of experimentation. They captured a designer's practical understanding of a tool, including the techniques that produced consistent results and the failures that had been quietly discarded along the way.
+This is particularly clear in the production of presentation texts. A large piece of writing for a client presentation might require many iterations before the tone, content, level of detail, and project positioning feel right. The final text may be saved, but the process that led to it is usually lost. The office keeps the output but not the method.
 
-This raised a question that was central to BlackBox: where does this knowledge go?
+That method is a form of office knowledge. It is comparable to earlier forms of repeatable practice such as InDesign templates, CAD standards, Revit families, Grasshopper definitions, graphic conventions, or competition narrative structures. Each makes an individual solution available to others. Each allows a practice to repeat a certain quality of work without starting from zero every time.
 
-A successful prompt might remain stored in a personal document, an individual account, a browser history, or simply in the memory of the person who developed it. If that person moved to another project or left the office, the knowledge could easily disappear. The office would not only lose a useful prompt. It would lose the accumulated experimentation behind it.
+AI workflows require a similar kind of memory. The useful knowledge may include example prompts, but it also includes tone of voice, preferred terminology, project positioning, evaluation criteria, model limitations, successful examples, and an understanding of what kind of context a system needs in order to respond well.
 
-The same observation applied to many other aspects of working with AI. As architects tested new tools, they developed methods, workflows, shortcuts, evaluation criteria, and practical judgements that often remained individual rather than becoming part of a wider office culture.
+This raised a question that became central to BlackBox: how can the knowledge created through AI use become shareable within a practice?
 
-This matters because AI does not only introduce new outputs into architectural practice. It also produces new forms of expertise. Prompting, evaluating model behaviour, structuring context, comparing outputs, managing generated material, and understanding where AI is useful or unreliable all become part of the practical knowledge of the office.
+Without a shared structure, this knowledge remains fragile. It may stay in personal chat histories, screenshots, browser tabs, private accounts, prompt fragments, or the memory of the person who developed the workflow. If that person moves to another project or leaves the office, the practice may lose not only a useful output, but the accumulated experimentation behind it.
 
-BlackBox was therefore not only concerned with making previous project information more accessible. It was also interested in how a practice might record the new knowledge it generates while adopting AI itself.
+The issue therefore extends beyond prompts. As architects adopt AI, they develop new forms of practical judgement: how to structure context, when to trust a response, when to reject it, how to compare outputs, how to combine AI with existing workflows, and how to recognise when a tool is inappropriate. These judgements are part of the emerging knowledge of the office.
 
-A successful AI prompt developed by one designer might become useful to a colleague in the same way that a technical detail, a graphic method, a Revit family, a Grasshopper definition, or a competition narrative can inform future work. The prompt is not merely an instruction. It is a small piece of accumulated design intelligence.
+This also points towards the need for more contextual AI systems. A general model can produce generic responses, but many architectural tasks depend on local knowledge: the standards of an office, the tone of its presentations, the conventions of its drawings, the requirements of a project brief, or the decisions already made by a team.
 
-This expanded the meaning of organisational memory. It was not only about preserving past projects. It was also about recognising that new digital workflows were producing knowledge in real time, often faster than existing office systems could capture.
+A simple example might be a colour assistant that helps select colours according to an office's graphic standards, preferred palettes, material conventions, and previous presentation examples. Such a system would not merely suggest attractive colours. It would operate within the visual language of the practice.
 
-BlackBox emerged from this condition. It asked how an architectural practice might preserve what it already knows, while also recording the new forms of knowledge created through its engagement with artificial intelligence.
+Another example might be a project-brief assistant. If connected to the brief, client requirements, site constraints, consultant notes, risks, and previous design decisions, it could answer questions from within the context of a specific project rather than as a generic chatbot.
+
+These examples suggest a different way of understanding AI in architectural practice. The question is not only what AI can generate, but how its use can become repeatable, situated, and cumulative. A practice does not necessarily need to train its own model from scratch. It may instead need to organise the context around a general model so that the model can operate within the knowledge environment of the office.
+
+BlackBox emerged from this condition. It asked how an architectural practice might preserve what it already knows, while also recording the new forms of knowledge created through its engagement with artificial intelligence. AI was not treated only as a tool for producing images, texts, or code. It was treated as a new layer of practice whose methods, examples, failures, and discoveries also needed to become part of organisational memory.
